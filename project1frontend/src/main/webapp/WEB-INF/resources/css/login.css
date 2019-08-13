@@ -5,15 +5,20 @@ body {
    width: webkit-fill-available;
    background-repect:no-repect;
     background-size:cover;
+    body-align:center;
      background-align:center;
      font-family:vintage;
 }
 #login .container #login-row #login-column #login-box {
-   margin-top: 120px; 
-  max-width: 600px;
-  height: 400px;
+ /*   margin-top: 80px;120 */
+  max-width: 500px; 
+  height: 350px;/* 400 */
   border: 1px solid #9C9C9C;
   background-align:center;
+ /*  background-image: url(img_blue-white-futuristic-technology-bg themelogin.jpg);, url(paper.gif) 
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px; */
   border-radius: 40px;
   background-color:#f3f3f3;
   font-family:vintage;
@@ -21,7 +26,7 @@ body {
   
 }
 h1 {
-	color:#fff;
+	color:#ffffff;
 	font-size: 30px;
 	font-weight: 700;
 	text-shadow:0 1px 4px rgb(0,0,0,.2);
@@ -32,13 +37,17 @@ h1 {
    background-align:center;
 }
 #login .container #login-row #login-column #login-box #login-form #register-link {
-  margin-top: -85px;
-  padding: 15px; /*20pxchgd  */
+ /*  margin-top: -85px; */
+  padding: 20px; /*20pxchgd  */
   background-align:center;
 }
+ /* .btn btn-info btn-md{
+  color:#d33f8d;
+	cursor:pointer;
+}  */
 
 body, html {
-  height: 85%; /* 100CHANGED TO 85 */
+  height: 75%; /* 100CHANGED TO 85 */
 }
 h3
 {
@@ -46,5 +55,10 @@ h3
 }
 .container
 {
+	
+ /* background-color: #0000ff */
+
 	  background-align:center;
+	  /* background:"resources/images/antonovich-design-nicewhit3resizedLOGIN222.jpg"; */
 }
+ 
