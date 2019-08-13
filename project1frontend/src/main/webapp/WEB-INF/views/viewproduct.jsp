@@ -9,18 +9,22 @@
 </head>
 <body>
 	<div class="container">
-		Product Details<br>
+		<!-- Product Details<br> -->
 		<div class="panel-info">
 			<div class="panel panel-heading">Product Details</div>
 			<div class="panel panel-body">
 			<c:url value="/cart/addtocart/${productObj.id}" var="url"></c:url>
 			<form action="${url }" >
-			<img src="<c:url value='/resources/images/${productObj.id}.jpg'></c:url>"><br>
-			<b>Product Name:</b>${productObj.productname }<br>
-			<b>Product Desc:</b>${productObj.productdesc }<br>
-			<b>Price:</b>${productObj.price }<br>
-			<b>Quantity:</b>${productObj.quantity }<br>
-			<b>Category:</b>${productObj.category.categoryname}<br>
+			<div class="col-md-7">
+			<img src="<c:url value='/resources/images/${productObj.id}.jpg' ></c:url>" height="375" width="600"><br>
+			</div>
+			<div class="col-md-5">
+			<br>
+			<b>Product Name:</b>&nbsp ${productObj.productname }<br>
+			<b>Product Desc:</b>&nbsp ${productObj.productdesc }<br>
+			<b>Price:</b>&nbsp${productObj.price }<br>
+			<b>Quantity:</b>&nbsp${productObj.quantity }<br>
+			<b>Category:</b>&nbsp${productObj.category.categoryname}<br>
 			<c:if test="${productObj.quantity==0 }">
 			<button class="btn btn-primary btn-lg" disabled>Out Of Stock</button>
 			</c:if>
@@ -30,10 +34,17 @@
 			<button class="btn btn-primary btn-lg" type="submit"><span class="glyphicon glyphicon-shopping-cart" ></span>Add To Cart</button>
 			</security:authorize>
 			</c:if>
-			</form>
 			</div>
+			
+			</form>
+			<div class="relive">
+			<center><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="<c:url value='/all/getallproducts'></c:url>">Other products</a></b></center>
+			</div>
+			</div>
+			<%-- <center><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="<c:url value='/all/getallproducts'></c:url>">Other products</a></b></center> --%>
 		</div>
+		<%-- <center><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="<c:url value='/all/getallproducts'></c:url>">Other products</a></b></center> --%>
 	</div>
-	<a href="<c:url value='/all/getallproducts'></c:url>">Other products</a>
+	
 </body>
 </html>

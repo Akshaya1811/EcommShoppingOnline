@@ -14,6 +14,7 @@
 	$(document).ready(function(){
 		$('#form').validate({
 			rules:{
+				/* "username":{required:true}, */
 				"apartmentnumber":{required:true},
 				"streetname":{required:true},
 				"state":{required:true},
@@ -33,32 +34,38 @@
 
 <p align="center"><b>Shipping Address</b></p>	
 <form:hidden path="id"/>
+<div class="col-md-6">
+<table> <%-- <tr><td>
+<form:label path="username">Enter UserName</form:label></td>
+<td><form:input path="username" id="username"/></td> --%>
+<tr><td>
+<form:label path="apartmentnumber">Enter Apartmentnumber</form:label></td>
+<td><form:input path="apartmentnumber" id="apartmentnumber"/></td>
 
-<form:label path="apartmentnumber">Enter Apartmentnumber</form:label>
-<form:input path="apartmentnumber" id="apartmentnumber"/>
+<tr><td>
+<form:label path="streetname">Enter Streetname</form:label></td>
+<td><form:input path="streetname" id="streetname"/></td>
 
+<tr><td>
+<form:label path="city">Enter city</form:label></td>
+<td><form:input path="city" id="city"/></td>
+</table>
+</div>
+<div class="col-md-6">
+<table><tr><td>
+<form:label path="state">Enter State</form:label></td>
+<td><form:input path="state" id="state"/></td>
 
-<form:label path="streetname">Enter Streetname</form:label>
-<form:input path="streetname" id="streetname"/>
+<tr><td>
+<form:label path="country">Enter country</form:label></td>
+<td><form:input path="country" id="country"/></td>
 
-
-<form:label path="city">Enter city</form:label>
-<form:input path="city" id="city"/>
-
-
-<form:label path="state">Enter State</form:label>
-<form:input path="state" id="state"/>
-
-
-<form:label path="country">Enter country</form:label>
-<form:input path="country" id="country"/>
-
-
-<form:label path="zipcode">Enter zipcode</form:label>
-<form:input path="zipcode" id="zipcode"/>
-
-
-<button type="submit" >Next</button>
+<tr><td>
+<form:label path="zipcode">Enter zipcode</form:label></td>
+<td><form:input path="zipcode" id="zipcode"/></td>
+</table>
+</div>
+<center><button type="submit" >Next</button></center>
 </form:form>
 </div>
 </body>
