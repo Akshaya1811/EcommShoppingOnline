@@ -17,39 +17,39 @@
 
 			<table align="center">
 				<tr>
-					<td colspan="2">Supplier Info</td>
+					<td colspan="2"><b>Supplier Info</b></td>
 				</tr>
 				<tr>
-					<td>Supplier Name</td>
+					<td><b>Supplier Name</b></td>
 					<td><input type="text" name="supName" /></td>
 				</tr>
 				<tr>
-					<td>Supplier Desc</td>
+					<td><b>Supplier Desc</b></td>
 					<td><input type="text" name="supDesc" /></td>
-				</tr>
-				<tr>
+				</tr></table>
+				<!-- <tr>
 					<td colspan="2">
-					
-							<input type="submit" value="Save Supplier" />
+				 -->	<br>
+							<center><font color="#9400D3"><b><input type="submit" value="Save Supplier" /></b></font></center>
 			
-						</td>
-				</tr>
-</form>
+						<!-- </td>
+				</tr> -->
 
-			</table>
+
+			<!--</table>  -->
 			</br></br>
 			<table align="center" border="1">
 				<tr>
-					<td>Supplier ID</td>
-					<td>Supplier Name</td>
-					<td>Supplier Desc</td>
-					<td>Operation</td>
+					<td><b>Supplier ID</b></td>
+					<td><b>Supplier Name</b></td>
+					<td><b>Supplier Desc</b></td>
+					<td><b>Operation</b></td>
 				</tr>
 				<c:forEach items="${supplierList}" var="supplier">
 					<tr>
-						<td>${supplier.supplierId}</td>
-						<td>${supplier.supplierName}</td>
-						<td>${supplier.supplierDesc}</td>
+						<td align="center">${supplier.supplierId}</td>
+						<td>  ${supplier.supplierName}</td>
+						<td>  ${supplier.supplierDesc}</td>
 						<td>
 						<a href="<c:url value="/editSupplier/${supplier.supplierId}"/>"class="btn btn-success">Edit</a>
 							<a href="<c:url value="/deleteSupplier/${supplier.supplierId}"/>"class="btn btn-danger">Delete</a>
