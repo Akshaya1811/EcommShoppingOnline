@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>FashionHi5</title>
+<title>FashionCastle</title>
 <script type="text/javascript">
 $(document).ready(function(){
 	var searchCondition='${searchCondition}'
@@ -15,11 +15,12 @@ $(document).ready(function(){
 		"sSearch" : searchCondition
 		}
 	})
-})
+});
 </script>
 </head>
 <body>
-LIST OF PRODUCTS
+<h3><b> <font color="darkviolet"><center>LIST OF PRODUCTS</center></font></b></h3>
+<!-- <img class="img" src="WEB-INF/resources/images/CaptureSALE...png" alt="image" height="20" width="20"> -->
 	<div class="container">
 	
 		<table class="table table-striped" border="1">
@@ -51,9 +52,10 @@ LIST OF PRODUCTS
 					       <c:url value="/admin/deleteproduct/${p.id }" var="deleteUrl"></c:url>
 			               <c:url value="/admin/getupdateform/${p.id }" var="editUrl"></c:url>
 							
-							<a href="${viewUrl }"><span class="glyphicon glyphicon-info-sign"></span></a>
+							<a style="padding-left:20px;" href="${viewUrl }"><span class="glyphicon glyphicon-info-sign"></span></a>
 							<security:authorize access="hasRole('ROLE_ADMIN')">
-							<a href="${deleteUrl }"><span class="glyphicon glyphicon-trash"></span></a>
+							&nbsp;&nbsp;
+							<a href="${deleteUrl }"><span class="glyphicon glyphicon-trash"></span></a>&nbsp;&nbsp;&nbsp;
 							<a href="${editUrl }"><span class="glyphicon glyphicon-pencil"></span></a>
 							</security:authorize>
 						 </td>
