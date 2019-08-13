@@ -1,18 +1,283 @@
 @charset "ISO-8859-1";
 
-#nav_bar{
-	background-color:#c0c0c0; /*#00FFFF*/
-	width:100;
+
+ @import 'https://fonts.googleapis.com/css?family=Raleway'; 
+
+/* html, body
+{
+    margin: 0px;
 }
+
+header, footer
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 5em 3em;
+	text-align: center;
+    background:#f3f3f3 ;#555
+}
+
+header h1
+{
+    color: #AAA;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+header span
+{
+    color:white ;#222 
+}*/
+
+ /*  footer span
+{
+  color: #64effb;
+}   */
+ /* div.container
+{now10:29..nowwwwwwwwwww
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 10em 3em;
+	text-align: center;
+}
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+ */
+/* .red
+{
+    background: #f44336;
+} */
+
+/* Circle behind*/
+div.circleBehind a:before, div.circleBehind a:after
+{
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    /* text-color:red; */
+    width: 50px;
+    height: 50px;
+    border: 4px solid #8502f0;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+div.circleBehind a:after
+{
+    border-width: 2px;
+    transition: all 0.4s;
+}
+
+div.circleBehind a:hover:before
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+div.circleBehind a:hover:after
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+}
+
+/* Brackets go out
+div.brackets a:before, div.brackets a:after
+{
+    position: absolute;
+    opacity: 0;
+    font-size: 35px;
+    top: 0px;
+    transition: all 0.3s;
+}
+
+div.brackets a:before
+{
+    content: '(';
+    left: 0px;
+    transform: translateX(10px);
+}
+
+div.brackets a:after
+{
+    content: ')';
+    right: 0px;
+    transform: translateX(-10px);
+}
+
+div.brackets a:hover:before, div.brackets a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+ */
+/* .purple
+{
+    background: #673ab7;
+}
+Top and Bottom borders come in
+div.topBotomBordersIn a:before, div.topBotomBordersIn a:after
+{
+    position: absolute;
+    text-color:white;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersIn a:before
+{
+    top: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersIn a:after
+{
+    bottom: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}/* ownnnnnnnnnnnnnnnnn
+ */
+
+
+ 
+ #nav_bar{
+	background-color:#73ffff;    /* #c0c0c0;#b9f9f4; #00FFFF */
+	 height:100px;
+	width:115;/*  115*/
+	/* ul li a:hov */er {
+ /*  color: red; */
+  text-color:deeppink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 #links a{
 	color:white;
-	font-size:40px;
+	font-size:18px;
+	text-color:white;
+	
 }
 #nav_bar
 {
 	 width: webkit-fill-available;
+	 width:130;
 }
-#navbardemo
+#headnav{
+	font-family:oleo script swash caps;
+	text-color:darkorchid;
+	width:130;
+} 
+ 
+
+/* mineeetrileggeeok ==============*/
+ */* / ======== nowwwwww 8:49
+  div.container
 {
-	color:red;
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 10em 3em;
+	text-align: center;
 }
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    text-color:white;
+    font: 15px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+.purple
+{
+    background: #673ab7;
+} */
+ 
+ /* 
+ #navbardemo{
+ cursor:pointer;
+ 
+ a:hover{
+ display:inline-block;
+ color:red;
+ }
+ text-color:blue;
+ }
+  */ /*===new start===========*/
+ /* #navbardemo{fail...zoomed..
+ background:#80f0f7;
+ border-bottom:10 px solid #37F;
+ box-shadow:3px 0px 5px grey;
+ text-align: center; 
+ }
+ ul li a:hover{
+ display:inline-block;
+ list-style-type:none;
+ 
+ padding:30px 40px;
+ font-size:14px;
+ color:red;
+ font-family:sans-serif;
+ transition:.5s;
+ } */
+ 
+	/*ul li a:hover;
+	color:red;
+	display:inline-block;
+} */
+ 
+/*#navbardemo{
+	a:hover{
+	text-decoration: underline;
+	transistion:0.5s;
+	text-transfrom:uppercase;//
+	.top-nav ul li a:hover,.top-nav ul li.active a{
+    color:#f22b2b;
+}//
+}
+#links a:hover{
+	background:purple;
+	transistion:0.5s;
+	text-transfrom:uppercase;
+}
+ #nav{
+	a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+	links a:hover{
+	background:purple;
+	transistion:0.5s;
+	text-transfrom:uppercase;
+}
+	} */
