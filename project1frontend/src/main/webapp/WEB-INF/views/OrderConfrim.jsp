@@ -1,16 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ include file="header.jsp" %>
-<%@ page isELIgnored="false" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+     <%@ include file="header.jsp" %> 
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
 <body>
+<h2>ConfrimOrder</h2>
+<%-- <a href="<c:url value='/payment/'></c:url>"class="btn btn-success ">payment</a> --%>
+ <%-- <a href="<c:url value='/all/payment'></c:url>" class="btn btn-success pull-right" >Payment&nbsp<span class="glyphicon glyphicon-play"></span></a> --%>
 <div class="container-wrapper">
     <div class="container">
     
@@ -23,7 +23,7 @@
                              <div class="well col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
 
                        <div >
-                            <h1 align="center">Invoice</h1>
+                            <h1 align="center">OrderConfrimation</h1>
                        </div>
                         ORDER ID: ${customerorder.orderId }
                   
@@ -32,7 +32,7 @@
                                 <address>
                                     <strong><button disabled>Shipping Address</button></strong><br/>
                                         ${customerorder.user.customer.shippingaddress.apartmentnumber },
-                                    ${customerorder.user.customer.shippingaddress.streetname }
+                                   ${customerorder.user.customer.shippingaddress.streetname }
                                 <br/>
                                     ${customerorder.user.customer.shippingaddress.state},
                                      ${customerorder.user.customer.shippingaddress.city}
@@ -101,7 +101,6 @@
                            
                         </div>
                         <a href="<c:url value='/all/payment'></c:url>" class="btn btn-success pull-right" >Payment&nbsp<span class="glyphicon glyphicon-play"></span></a>
- <a href="<c:url value='/all/Thanks'></c:url>" class="btn btn-primary btn " >Done&nbsp<span class="glyphicon glyphicon-thumbs-up"></span></a>
 
 <%-- <a href="<c:url value='/all/payment'></c:url>"><b>payment</b></a> --%>
                       
@@ -117,8 +116,6 @@
         <%-- <a href="<c:url value='/cart/shippingaddressform'></c:url>" class="btn btn-success pull-right"> --%>
        <!--  <button type="submit"  value=>Next</button> -->
 
-
-
+<!-- </a> -->
 </body>
 </html>
-
