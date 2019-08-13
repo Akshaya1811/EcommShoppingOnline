@@ -11,7 +11,7 @@
 <div class="container">
 <table class="table table-striped">
 <thead id="thead">
-<tr><th>ProductName</th><th>Quantity</th><th>Total Price</th><th>Remove</th>
+<tr><th>ProductName</th><th>Quantity</th><th>Total Price</th><th>Remove</th><th>Update</th>
 </tr>
 </thead>
 <c:set var="grandTotal" value="0"></c:set>
@@ -26,22 +26,22 @@
 <td><a href="<c:url value='/cart/removecartitem/${cartItem.cartItemId }'></c:url>" class="label label-danger pull-left" >
 <span class="glyphicon glyphicon-remove" ></span>Remove
 </a></td>
-<!-- <td><a href="<c:url value='/cart/updatecartitem/${cartItem.cartItemId }'></c:url>" class="label label-danger pull-left" >
-<span class="glyphicon glyphicon-update" ></span>Update
-</a></td> -->
+<td><a href="<c:url value="/cart/updatecart/{cartItemId}"></c:url>" class="label label-success pull-left" >
+<span class="glyphicon glyphicon-ok" ></span>Update
+</a></td><!-- changed..update -->
 
 </tr>
 </c:forEach>
 </tbody>
 </table>
-Total Price : ${grandTotal }
+<b>Total Price : ${grandTotal }</b>
 <c:if test="${empty(cartItems) }">
 <h3>Your Cart is Empty</h3>
 </c:if>
 
 <c:if test="${ !empty(cartItems) }">
-<a href="<c:url value='/cart/shipping'></c:url>" class="btn btn-success pull-right">
-<span class="glyphicon glyphicon-shopping-cart"></span> CheckOut  </a>
+<a href="<c:url value='/cart/shippingaddressform'></c:url>" class="btn btn-success pull-right"> <!--cheaked out box is enlargeby this=  &nbsp;&nbsp;-->
+<span class="glyphicon glyphicon-shopping-cart"></span> CheckOut  </a><!--/cart/shippingaddressform  -->
 </c:if>
 
 <c:if test="${ !empty(cartItems) }">
@@ -49,8 +49,11 @@ Total Price : ${grandTotal }
 <span class="glyphicon glypicon-remove"></span>Clear Cart </a>
 </c:if>
 
+</div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<div class="continue" align="center">
+<a href="<c:url value='/all/getallproducts'></c:url>" class="btn btn-success "  >
+<span class="glyphicon glyphicon-shopping-cart"></span>&nbspContinue Shopping </a>
 </div>
-
 </body>
 
 </html>
