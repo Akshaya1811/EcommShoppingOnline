@@ -21,13 +21,20 @@
 
     <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
 <title>FashionCastle</title>
+<style>
+/* .fontSize:hover{color:maroon; border:10%;}
+a:hover{color:darkviolet;} */
+/* .nav navbar-nav{ */
+a:hover{color:violet;}
 
+</style>
 </head>
 <body>
 	<div class="container-fluid" >
 		<nav class="navbar navbar-default" id="nav_bar" >
-			<div class="navbar-header">
-				<a href="resources/images/furnilogo1.png" class="navbar-brand"><img class="img-circle" src="<c:url value='/resources/images/furnilogo1.png'></c:url>" alt="img" height="50px" width="50px"></a>
+		<%-- <center><h2><font face="oleo script swash caps" color="darkorchid">Fashion Castle </font></h2></center>
+ --%>			<div class="navbar-header">
+				<a href="resources/images/logoorigiiii.PNG" class="navbar-brand"><img class="img-rectangle" src="<c:url value='/resources/images/logoorigiiii.PNG'></c:url>" alt="img" height="40px" width="60px"></a>
 			<button type="button" class="navbar-toggle collapsed" 
    data-toggle="collapse" data-target="#navbardemo" aria-expanded="true">
         <span class="sr-only">Toggle navigation</span>
@@ -36,14 +43,18 @@
         <span class="icon-bar"></span>
       </button>
 			</div>
-			<div class="collapse navbar-collapse" id="navbardemo" >
+			 <div class="heading" id="headnav">
+			<center><h2><font face="oleo script swash caps" color="#9400D3">Fashion Castle</font></h2></center>
+			 </div>
+			<!-- <div class="collapse navbar-collapse" id="navbardemo" > -->
+			<div class="container blue circleBehind">
 			<ul class="nav navbar-nav">
-				<li><a href='<c:url value='/home'></c:url>' class="fontSize">Home</a></li>
-				<li><a href="<c:url value='/aboutus'></c:url>" >About Us</a></li>
-				<li><a href="<c:url value='/all/getallproducts'></c:url>">Browse all products</a>
+				<li><a href='<c:url value='/home'></c:url>' class="fontSize"><span class="glyphicon glyphicon-home" ></span><b> Home</b></a></li>
+				<li><a href="<c:url value='/aboutus'></c:url>" ><b>About Us</b></a></li>
+				<li><a href="<c:url value='/all/getallproducts'></c:url>"><b>Products Display</b></a>
 				<li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
-					data-toggle="dropdown">Select By Category<span class="caret"></span></a>
+					data-toggle="dropdown"><b>Select By Category</b><span class="caret"></span></a>
 					
 				<ul class="dropdown-menu">
 				<c:forEach items="${categories}" var="category">
@@ -58,13 +69,13 @@
 			   </li>
 			  
 			   <security:authorize access="hasRole('ROLE_ADMIN')">
-			   <li><a href="<c:url value='/admin/getproductform'></c:url>">Add Product</a></li>
+			   <li><a href="<c:url value='/admin/getproductform'></c:url>"><b>Add Product</b></a></li>
 				</security:authorize> 
 				<security:authorize access="hasRole('ROLE_ADMIN')">
-			   <li><a href="<c:url value='/admin/getcategory'></c:url>">Manage Category</a></li>
+			   <li><a href="<c:url value='/admin/getcategory'></c:url>"><b>Manage Category</b></a></li>
 				</security:authorize>    
 			   <security:authorize access="hasRole('ROLE_ADMIN')">
-			   <li><a href="<c:url value='/admin/getsupplier'></c:url>">Manage Supplier</a></li>
+			   <li><a href="<c:url value='/admin/getsupplier'></c:url>"><b>Manage Supplier</b></a></li>
 				</security:authorize> 
 			   <security:authorize access="hasRole('ROLE_USER')">
 			   <li><a href="<c:url value='/cart/getcart'></c:url>">MyCart(${cartSize})<span class="glyphicon glyphicon-shopping-cart"></span></a></li>
@@ -72,15 +83,15 @@
 			   
 			   <c:if test="${pageContext.request.userPrincipal.name==null }">
 			   <ul class="nav navbar-nav navbar-right">
-			    <li><a href="<c:url value='/all/registrationform'></c:url>"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-				<li><a href="<c:url value='/login'></c:url>"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+			    <li><a href="<c:url value='/all/registrationform'></c:url>"><span class="glyphicon glyphicon-user"></span><b> Sign Up</b></a></li>
+				<li><a href="<c:url value='/login'></c:url>"><span class="glyphicon glyphicon-log-in"></span><b> LogIn</b></a></li>
 				</ul>
 				</c:if>
 				
 				<c:if test="${pageContext.request.userPrincipal.name!=null }">
 				 <ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Welcome ${pageContext.request.userPrincipal.name }</a></li>
-				<li><a href="<c:url value='/j_spring_security_logout'></c:url>"><span class="glyphicon glyphicon-log-out"></span> Sign out</a></li>
+				<li><a href="#"><b>Welcome ${pageContext.request.userPrincipal.name } <span class="glyphicon glyphicon-queen"></span></b></a></li>
+				<li><a href="<c:url value='/j_spring_security_logout'></c:url>"><span class="glyphicon glyphicon-log-out"></span><b> Sign out</b></a></li>
 			    	</ul>
 			    </c:if>
 		
