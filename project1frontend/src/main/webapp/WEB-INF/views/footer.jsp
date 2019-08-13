@@ -14,6 +14,7 @@
   width:100%;
   } 
   </style>
+  
 </head>
 <body bgcolor="violet">
 <div class="footer" >
