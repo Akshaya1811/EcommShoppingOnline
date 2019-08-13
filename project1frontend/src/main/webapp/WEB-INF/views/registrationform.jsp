@@ -5,12 +5,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>FashionHi5/SignUp</title>
+<title>Registration</title>
+<!--  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!------ Include the above in your HEAD tag ---------->
+
+
 <link href="<c:url value='/resources/css/registration.css'></c:url>" rel="stylesheet">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-<script type="text/javascript">
+ <script type="text/javascript">
 
 function fillShippingAddress(form){
 	if(form.shippingaddressform.checked==true){
@@ -57,87 +63,112 @@ $(document).ready(function(){
 	})
 })
 </script>
+<!-- Style to set the size of checkbox -->
+    <style> 
+        input.sized { 
+            width: 27px; 
+            height: 27px; 
+        } 
+    </style> 
 </head>
-<body background="resources/images/max-onam-3.jpg">
+<body   background="resources/images/blue-white-futuristic-technology-bg themelogin.jpg" height="100%" width="100%"> <!-- background="resources/images/login-page-background-images-hd-2.jpg.,,bgcolor="aqua",background="resources/images/blue-white-futuristic-technology-bg themelogin.jpg"  -->
 
-<div class="container">
+<div class="container" >
 <c:url value="/all/registercustomer" var="url"></c:url>
-<form:form modelAttribute="customer" action="${url }" id="form">
+<form:form modelAttribute="customer" action="${url }" id="form"  >
 
 <form:hidden path="id"/>
 <form>
-<h1>Sign Up  </h1>
-<br>
-<form:label path="firstname">Enter Firstname</form:label>
-<form:input path="firstname"  placeholder="FirstName" id="firstname"/>
+<h1>Registration </h1>
+<!-- <hr> -->
 
-
-<form:label path="lastname">Enter Lastname</form:label>
-<form:input path="lastname" placeholder="LastName" id="lastname"/>
-
-
-<form:label path="phonenumber">Enter Phonenumber</form:label>
-<form:input path="phonenumber"  placeholder="phonenumber" id="phonenumber"/>
-
-
-<form:label path="user.email" >Enter Email</form:label>
-<form:input path="user.email" placeholder="email" id="user.email" type="email"/>
-<br>
-<span style="color:red">${error }</span>
-
-<form:label path="user.password" >Enter Password</form:label>
-<form:input path="user.password" placeholder="password" id="user.password" type="password"/>
-
-
-<!--  
-<hr>
 <b>Billing Address</b><br>
 
-<form:label path="billingaddress.apartmentnumber">Enter Apartment number</form:label>
-<form:input path="billingaddress.apartmentnumber" id="billingaddress.apartmentnumber"/>
+ <div class="col-md-6">
+ <table>
+ <tr><td><form:label path="user.email" >Enter Email</form:label></td>
+<td><form:input path="user.email" placeholder="email" id="user.email" type="email"/></td></tr>
+<tr><td><tr><td><form:label path="user.password" >Enter Password</form:label></td>
+<td><form:input path="user.password" placeholder="pwd" id="user.password" type="password"/></td></tr>
 
-<form:label path="billingaddress.streetname">Enter street name</form:label>
-<form:input path="billingaddress.streetname" id="billingaddress.streetname"/>
-
-<form:label path="billingaddress.city">Enter city</form:label>
-<form:input path="billingaddress.city" id="billingaddress.city"/>
-
-<form:label path="billingaddress.state">Enter state</form:label>
-<form:input path="billingaddress.state" id="billingaddress.state"/>
-
-<form:label path="billingaddress.country">Enter country</form:label>
-<form:input path="billingaddress.country" id="billingaddress.country"/>
-
-<form:label path="billingaddress.zipcode">Enter Zipcode</form:label>
-<form:input path="billingaddress.zipcode" id="billingaddress.zipcode"/>
-<hr>
-<b>Shipping address</b><br>
-Check this if shipping address is same as billing address
-<input type="checkbox" onclick="fillShippingAddress(this.form)" id="shippingaddressform">
-
-<form:label path="shippingaddress.apartmentnumber">Enter Apartmentnumber</form:label>
-<form:input path="shippingaddress.apartmentnumber" id="shippingaddress.apartmentnumber"/>
-
-<form:label path="shippingaddress.streetname">Enter streetname</form:label>
-<form:input path="shippingaddress.streetname" id="shippingaddress.streetname"/>
-
-<form:label path="shippingaddress.city">Enter city</form:label>
-<form:input path="shippingaddress.city" id="shippingaddress.city"/>
-
-<form:label path="shippingaddress.state">Enter state</form:label>
-<form:input path="shippingaddress.state" id="shippingaddress.state"/>
-
-<form:label path="shippingaddress.country">Enter country</form:label>
-<form:input path="shippingaddress.country" id="shippingaddress.country"/>
-
-<form:label path="shippingaddress.zipcode">Enter zipcode</form:label>
-<form:input path="shippingaddress.zipcode" id="shippingaddress.zipcode"/>-->
-<br>
-
-<button type="submit" value="Register">Submit</button>
-</form>
-</form:form>
+ <tr>
+ <td>
+<form:label path="billingaddress.apartmentnumber">Enter Apartment number</form:label></td>
+<!-- <td><input type="text" placeholder="enter aprt no" /></td></tr>value="" -->
+<td><form:input path="billingaddress.apartmentnumber" id="billingaddress.apartmentnumber"/></td>
+<!-- <div class="fromgroup"> -->
+<tr>
+<td>
+<form:label path="billingaddress.streetname">Enter street name</form:label></td>
+<td><form:input path="billingaddress.streetname" id="billingaddress.streetname"/></td>
+<!-- </div> -->
+<!-- <div class="fromgroup"> -->
+<tr>
+<td>
+<form:label path="billingaddress.city">Enter city</form:label></td>
+<td><form:input path="billingaddress.city" id="billingaddress.city"/></td>
+<!-- </div> -->
+<!-- <div class="fromgroup"> -->
+<tr>
+<td>
+<form:label path="billingaddress.state">Enter state</form:label></td>
+<td><form:input path="billingaddress.state" id="billingaddress.state"/></td>
+<!-- </div> -->
+<!-- <div class="fromgroup"> -->
+<tr><td>
+<form:label path="billingaddress.country">Enter country</form:label></td>
+<td><form:input path="billingaddress.country" id="billingaddress.country"/></td>
+<!-- </div> -->
+<!-- <div class="fromgroup"> -->
+<tr>
+<td>
+<form:label path="billingaddress.zipcode">Enter Zipcode</form:label></td>
+<td><form:input path="billingaddress.zipcode" id="billingaddress.zipcode"/></td>
+<!-- <hr> -->
+</tr>
+<!-- </div> -->
+</table>
 </div>
+<div class="col-md-6">
+<b>Shipping address</b>
+ 
+Check this if shipping address is same as billing address
+<table>
+<tr>
+<td>
+<input type="checkbox" class="sized" onclick="fillShippingAddress(this.form)" id="shippingaddressform"></td></tr>
+<tr><td>
+<form:label path="shippingaddress.apartmentnumber">Enter Apartmentnumber</form:label></td>
+<td><form:input path="shippingaddress.apartmentnumber" id="shippingaddress.apartmentnumber"/></td></tr>
+<tr><td>
+<form:label path="shippingaddress.streetname">Enter streetname</form:label></td>
+<td><form:input path="shippingaddress.streetname" id="shippingaddress.streetname"/></td></tr>
+<tr><td>
+<form:label path="shippingaddress.city">Enter city</form:label></td>
+<td><form:input path="shippingaddress.city" id="shippingaddress.city"/></td></tr>
+<tr><td>
+<form:label path="shippingaddress.state">Enter state</form:label></td>
+<td><form:input path="shippingaddress.state" id="shippingaddress.state"/></td></tr>
+<tr><td>
+ <form:label path="shippingaddress.country">Enter country</form:label></td>
+<td><form:input path="shippingaddress.country" id="shippingaddress.country"/></td></tr>
+<tr><td>
+<form:label path="shippingaddress.zipcode">Enter zipcode</form:label></td>
+<td><form:input path="shippingaddress.zipcode" id="shippingaddress.zipcode"/></td></tr>
+</table>
+</div>
+<center><button type="submit" onclick="alert('your registered successfully')" class="btnSubmit" value="Register/"><span class="glyphicon glyphicon-registration-mark"></span>Register Now</button></center>
+</form>
+<img src="resources/images/globe.jpg" alt="first slide" height="50px" width="50px">
+<!-- <button onclick="alert('Hello\nHow are you?')">Try it</button> -->
+
+</form:form>
+<!-- <marquee><h2><b>hurry!!register for unbelivable discounts...</b></h2></marquee> -->
+</div>
+<!-- <div>
+ <img class="img" src="WEB-INF/resources/images/CaptureSALE...png" alt="image" />
+ <img class="img" src="resources/images/furniturer for style 1.jpg" alt="first slide" height="15%" width="20%">
+</div>  -->
 
 </body>
 </html>
