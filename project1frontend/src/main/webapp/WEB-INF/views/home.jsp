@@ -348,9 +348,9 @@ i:hover + div:ss {
 <!-- <footer >
 <font face="Arialblack" color="yellow" ><h3>Thanks welcome again!!!!</h3></font>
 </footer> -->
-<!-- this is ... //hav 2inst/////<marquee direction="right" behavior="alternate"> --><img src="resources/images/clip1.png"  width="150px" height="150px"><!-- </marquee> -->
+<marquee direction="right" behavior="alternate"> --><img src="resources/images/clip1.png"  width="150px" height="150px">
 
 </div>
- 
+ <%@ include file ="footer.jsp"%> 
 </body>
 </html>
