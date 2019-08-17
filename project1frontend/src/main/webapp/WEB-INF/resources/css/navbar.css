@@ -77,7 +77,14 @@ div.circleBehind a:before, div.circleBehind a:after
     transition: all 0.3s;
     z-index: -1;
 }
-
+.navbar-default .navbar-nav>li>a {
+    color: #9400D3 !important;/* #8502f0 */
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    /* color: #ffff; */
+    text-decoration: none;
+    background-color: #c06ff7!important;
+}
 div.circleBehind a:after
 {
     border-width: 2px;
@@ -163,16 +170,17 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
     transform: translateY(0px);
 }/* ownnnnnnnnnnnnnnnnn
  */
-
+/*=====enaghatham erutu ill paste....
+ */ 
 
  
  #nav_bar{
 	background-color:#73ffff;    /* #c0c0c0;#b9f9f4; #00FFFF */
 	 height:100px;
-	width:115;/*  115*/
-	/* ul li a:hov */er {
- /*  color: red; */
-  text-color:deeppink;
+	width:100;/*  115*/
+	/* ul li a:hov */er{ 
+ /*  color: red; 
+  text-color:deeppink;*/
   background-color: transparent;
   text-decoration: underline;
 }
@@ -183,19 +191,63 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
 	text-color:white;
 	
 }
+.container-fluid {/* wstt */
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+/* linkkk */
+ .navbar-default .navbar-nav>li>a 
+ {
+    color: #00aeef !important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    /* color: #ffff; */
+    text-decoration: none;
+    background-color: #00aeef!important;
+}
 #nav_bar
 {
 	 width: webkit-fill-available;
-	 width:130;
+	 /* width:130; */
 }
 #headnav{
 	font-family:oleo script swash caps;
 	text-color:darkorchid;
 	width:130;
 } 
+/* #nav navbar-nav navbar-right{
+	text-align:right;
+} for homeee*/
+
+.ghost-color-btn:hover {
+    background: #00aeef;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+.ghost-color-btn {
+    font-family: "Roboto",sans-serif;
+    border: 2px solid #00aeef;
+    color: #00aeef;
+    padding: 10px 44px;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
  
 
-/* mineeetrileggeeok ==============*/
+/* mineeeeeok ==============*/
  */* / ======== nowwwwww 8:49
   div.container
 {
@@ -232,52 +284,4 @@ div.container a
  }
  text-color:blue;
  }
-  */ /*===new start===========*/
- /* #navbardemo{fail...zoomed..
- background:#80f0f7;
- border-bottom:10 px solid #37F;
- box-shadow:3px 0px 5px grey;
- text-align: center; 
- }
- ul li a:hover{
- display:inline-block;
- list-style-type:none;
- 
- padding:30px 40px;
- font-size:14px;
- color:red;
- font-family:sans-serif;
- transition:.5s;
- } */
- 
-	/*ul li a:hover;
-	color:red;
-	display:inline-block;
-} */
- 
-/*#navbardemo{
-	a:hover{
-	text-decoration: underline;
-	transistion:0.5s;
-	text-transfrom:uppercase;//
-	.top-nav ul li a:hover,.top-nav ul li.active a{
-    color:#f22b2b;
-}//
-}
-#links a:hover{
-	background:purple;
-	transistion:0.5s;
-	text-transfrom:uppercase;
-}
- #nav{
-	a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-	links a:hover{
-	background:purple;
-	transistion:0.5s;
-	text-transfrom:uppercase;
-}
-	} */
+  
