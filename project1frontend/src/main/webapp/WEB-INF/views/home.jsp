@@ -250,6 +250,38 @@ i:hover + div:ss {
  </tr>
   </table>
   </div>===== -->
+  <section class="section1">
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+  <img  src="resources/images/logoorigiiii.PNG"  height="300px" width="300px" align="left">
+  </div>
+		<div class="col-md-7">	
+		<h2><font-color="#9400D3">	Our Innovative Will be Your Comfort</font></h2></p>
+   <p><h3><b><font color="#FF1493">&nbsp	Art with an Attitude!!</font></b></h3></p>
+   <p><h3><b><font color="#00aeff">Lets your Dream Home being with Inspriration here We having Crafted Beauty for Your Home the Style that  speaks and Style that hits your Home..Enjoy Your Shopping!!..   
+   <marquee behavior="alternate">*Happy Shopping!!!*</marquee></font></b></h3><p>
+   <a class="ghost-color-btn" href="aboutus">Read More<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+	
+   </div>
+   </div>
+   </div>
+   </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <br>
   <table>
   <tr width="100%">
@@ -285,7 +317,7 @@ i:hover + div:ss {
                 etc with a free online placement preparation  
                 course. -->
                 
-                <img class="img" src="resources/images/33.jpg" alt="forth slide" height="280px" width="100%" ><!--  -->
+                <img class="img" src="resources/images/contemporary-dining-room-sets.jpg" alt="forth slide" height="300px" width="100%" ><!--  -->
         
             </div> 
              
@@ -307,7 +339,7 @@ i:hover + div:ss {
                 articles follow few steps that are Articles 
                 that need little modification/improvement 
                 from reviewers are published first.  -->
-                 <img class="img" src="resources/images/dressing table with sliding mirror.jpg" alt="forth slide"height="280px" width="100%" >
+                 <img class="img" src="resources/images/bed6 double sigma.jpg" alt="forth slide"height="300px" width="100%" >
                
             </div> 
         </div> 
@@ -318,20 +350,67 @@ i:hover + div:ss {
   <table>
  <tr width="100%">
  <td width="100%">
-   <img class="img" src="resources/images/CaptureSALE.png" alt="forth slide"height="250px" width="250px" ></td>
-   <td width="100%">
-   this is the process of sale...</td>
+   <img class="img" src="resources/images/CaptureSALE.png" alt="forth slide"height="280px" width="250px" ></td>
    </tr>
   
    </table>
    <br>
-  <!-- this is ... //hav 2inst<marquee> direction="alternate" behavior="alternate">--><img class="img" src="resources/images/shop-img..proj.png" alt="img" height="250px" width="250px" ></td><!-- </marquee> --></br>
-<!--   </center> -->
+   <section class="section2">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+ <img class="img" src="resources/images/work_work_work.gif" alt="forth slide"height="100%" width="100%" >
+  </div>
+		<div class="col-md-6"><br><br>	<center>
+		<h2><b><font face="darkorchid" color="#9400D3">furnitures for your Comfort</font></b></h2>
+    <h2><b><font face="darkorchid" color="#9400D3">*Stay comfort!!!*</font></b></h2></center>
+	
+   </div>
+   </div>
+   </div>
+   </section>
+<!--    <br> -->
+   <marquee direction="alternate" behavior="alternate"><img class="img" src="resources/images/shop-img..proj.png" alt="img" height="250px" width="250px" ></td> </marquee></br>
+   <!-- </center>  -->
+<section class="section3">
+<!-- <div class="container"> -->
+	<center><font face="oleo script swash caps" color="#FF1493"><h2 class="productsview">New Arrivals**</h2></font></center>
+	<div class="row">
+		<div class="col-md-4">
+			<a href="#"><img class="img"  alt="Fnsy" src="resources/images/35.jpg" height=350px width="100%"></a>
+		</div>
+		<div class="col-md-4">	
+			<a href="#"><img class="img"  alt="Fnsy" src="resources/images/65.jpg" height=350px width="100%"></a>			
+		</div>
+		<div class="col-md-4">	
+			<a href="#"><img class="img"  alt="Fnsy" src="resources/images/105.jpg" height=350px width="100%"></a>			
+		</div>
+		
+	<!-- </div> -->
+</div>
+</section>
+<br>
+<section class="section4">
+<center><h2><font face="oleo script swash caps" color="#FF1493">**Grab the deal offer!!**</font></h2></center>
+	<div class="row">
+		<div class="col-md-6">
+			<a href="#"><img class="img"  alt="Fnsy" src="resources/images/summer sale sofa.jpg" height=350px width="100%"></a>
+		</div>
+		<div class="col-md-6">	
+			<a href="#"><img class="img"  alt="Fnsy" src="resources/images/siska-diningset.jpg" height=350px width="100%"></a>			
+		</div>
+		
+</div>
+</section><br>
+<center><h2><font face="oleo script swash caps" color="#FF1493"><b>**Booms Offer*!!**DEaLs**</b></font></h2></center>
+<a href="#"><img class="img"  alt="Fnsy" src="resources/images/discount.jpg" height=400px width="100%"></a>
+<br>
   <img class="img" src="resources/images/Homebase_Thumb_v01.gif" alt="forth slide"height="25%" width="25%" >
   <img class="img" src="resources/images/girl_flat_desk_kit8.gif" alt="forth slide"height="25%" width="25%" >
   <img class="img" src="resources/images/work_work_work.gif" alt="forth slide"height="25%" width="25%" >
   <img class="img" src="resources/images/logogif.gif" alt="forth slide"height="25%" width="25%" >
   <img class="img" src="resources/images/Dogvacay_Plane.gif" alt="forth slide"height="25%" width="25%" >
+  
 <center>
 <!-- <marquee><h2>our new arrivals!!!</h2>this,.... -->
 <img class="img" src="resources/images/bed-queen-siz-2.jpg" alt="forth slide" height="25%" width="30%"><font color="auqa"> fancy cot for ur comfortb zone..</font><!-- </marquee>--> -->
@@ -348,7 +427,7 @@ i:hover + div:ss {
 <!-- <footer >
 <font face="Arialblack" color="yellow" ><h3>Thanks welcome again!!!!</h3></font>
 </footer> -->
-<marquee direction="right" behavior="alternate"> --><img src="resources/images/clip1.png"  width="150px" height="150px">
+<!-- this is ... //hav 2inst/////<marquee direction="right" behavior="alternate"> --><img src="resources/images/clip1.png"  width="150px" height="150px"><!-- </marquee> -->
 
 </div>
  <%@ include file ="footer.jsp"%> 
