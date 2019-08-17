@@ -19,6 +19,7 @@
     <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
 
 
+
     <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
 <title>FashionCastle</title>
 <style>
@@ -49,9 +50,9 @@ a:hover{color:violet;}
 			<!-- <div class="collapse navbar-collapse" id="navbardemo" > -->
 			<div class="container blue circleBehind">
 			<ul class="nav navbar-nav">
-				<li><a href='<c:url value='/home'></c:url>' class="fontSize"><span class="glyphicon glyphicon-home" ></span><b> Home</b></a></li>
+				<li><a href='<c:url value='/home'></c:url>' class="fontSize"><b><span class="glyphicon glyphicon-home" ></span> Home</b></a></li>
 				<li><a href="<c:url value='/aboutus'></c:url>" ><b>About Us</b></a></li>
-				<li><a href="<c:url value='/all/getallproducts'></c:url>"><b>Products Display</b></a>
+				<li><a href="<c:url value='/all/getallproducts'></c:url>"><strong>Products Display</strong></a>
 				<li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown"><b>Select By Category</b><span class="caret"></span></a>
@@ -78,9 +79,9 @@ a:hover{color:violet;}
 			   <li><a href="<c:url value='/admin/getsupplier'></c:url>"><b>Manage Supplier</b></a></li>
 				</security:authorize> 
 			   <security:authorize access="hasRole('ROLE_USER')">
-			   <li><a href="<c:url value='/cart/getcart'></c:url>">MyCart(${cartSize})<span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+			   <li><a href="<c:url value='/cart/getcart'></c:url>"><b>MyCart(${cartSize})<span class="glyphicon glyphicon-shopping-cart"></span></b></a></li>
 			   </security:authorize>
-			   
+			   </b></ul><!-- ichngedddddnow -->
 			   <c:if test="${pageContext.request.userPrincipal.name==null }">
 			   <ul class="nav navbar-nav navbar-right">
 			    <li><a href="<c:url value='/all/registrationform'></c:url>"><span class="glyphicon glyphicon-user"></span><b> Sign Up</b></a></li>
