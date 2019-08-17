@@ -153,6 +153,42 @@ tr.row2>td {
 }
 
 	</style>
+<script type="text/javascript">
+
+
+var a = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() > oTop) {
+    $('.counter-value').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 7000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
+        });
+    });
+    a = 1;
+  }
+
+});
+</script>
 
 
 </head>
@@ -187,8 +223,7 @@ tr.row2>td {
                                  <!-- <img class="img"  src="/resources/images/globe.jpg"  alt="img" height="40%" width="50%">
                                 <div class="feature-content">
                                     <h4>Work with heart</h4>
-                                    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
-                                </div> -->
+                                    </div> -->
                             </div>
                         </div>
                         <div class="feature-box">
@@ -198,8 +233,7 @@ tr.row2>td {
                                 </div>
                                 <!-- <div class="feature-content">
                                     <h4>Reliable services</h4>
-                                    <p>Donec vitae sapien ut libero venenatis faucibu. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt</p>
-                                </div> -->
+                                                           </div> -->
                             </div>
                         </div>
                         <div class="feature-box">
@@ -209,8 +243,7 @@ tr.row2>td {
                                 </div>
                                 <!-- <div class="feature-content">
                                     <h4>Great support</h4>
-                                    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
-                                </div> -->
+                                        </div> -->
                             </div>
                         </div>
                     </div>
@@ -245,7 +278,12 @@ tr.row2>td {
                         
                         </table></div></div> 
                         <!-- <img class="img"  src="/resources/images/globe.jpg"  alt="img" height="150px" width="150px"> -->
-                       
+                        <p>servicessss>
+                        <ul>
+                        <li>new</li>
+                        <li>oldddd</li>
+                        <li>imhf</li>
+                        <li>hgujfgujh</li>
                         <img  src="resources/images/globe.jpg"  height="150px" width="150px" align="right"></ul></p>
                         <a class="aboutus-more" href="#">read more</a>
                         <i class="fas fa-users"></i>
@@ -255,33 +293,27 @@ tr.row2>td {
     </div>
     
  
- 
- 
- 
- 
- 
- 
- 
- 
  <div class="bg">
            <img class="img"  src="/resources/images/bg login.jpg"  alt="img" height="40%" width="50%">
  </div>
  
  <!-- <marquee direction="right"><img src="resources/images/clip1.png"  width="150px" height="150px">with our good services</marquee>
   -->
-   
+  
 <img src="resources/images/bg login.jpg"  width="100%" height="22%">with our good services
   <marquee direction="right" behavior="Alternate"><img src="resources/images/clip1.png"  width="150px" height="150px"><h4><font color="#8502f0"><font face="oleo script swash caps"><b>With Our Good Services</b></font></font></h4></marquee>
    <img  src="resources/images/globe.jpg"  height="150px" width="150px">
-  
+    
  </div> 
  <img src="resources/images/aboutimg.jpg" width="100%" height="22%">
  
  
 <!-- <body> -->
 <div class="background-image">
-our mission are
-  </div>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam erat in ante malesuada, facilisis semper nulla semper. Phasellus sapien neque, faucibus in malesuada quis, lacinia et libero. Sed sed turpis tellus. Etiam ac aliquam tortor, eleifend rhoncus metus. Ut turpis massa, sollicitudin sit amet molestie a, posuere sit amet nisl. Mauris tincidunt cursus posuere. Nam commodo libero quis lacus sodales, nec feugiat ante posuere. Donec pulvinar auctor commodo. Donec egestas diam ut mi adipiscing, quis lacinia mauris condimentum. Quisque quis odio venenatis, venenatis nisi a, vehicula ipsum. Etiam at nisl eu felis vulputate porta.</p>
+  <p>Fusce ut placerat eros. Aliquam consequat in augue sed convallis. Donec orci urna, tincidunt vel dui at, elementum semper dolor. Donec tincidunt risus sed magna dictum, quis luctus metus volutpat. Donec accumsan et nunc vulputate accumsan. Vestibulum tempor, erat in mattis fringilla, elit urna ornare nunc, vel pretium elit sem quis orci. Vivamus condimentum dictum tempor. Nam at est ante. Sed lobortis et lorem in sagittis. In suscipit in est et vehicula.</p>
+</div>
  =====
 new======
 <div class="container-fluid bg-grey">
@@ -299,18 +331,18 @@ new======
 
 <div class="container-fluid text-center" background-color:" #8502f0">
   <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+  <h4>We Offers</h4>
   <br>
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+     <span class="glyphicon glyphicon-thumbs-up logo-small"></span>
+      <h4>TRUSTABLE</h4>
+      <p>WE Give Trustable Products..</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+     <span class="glyphicon glyphicon-time logo-small"></span>
+      <h4>ON TIME DELIVERY</h4>
+      <p>On Time Delivery Of Products..</p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-lock logo-small"></span>
@@ -337,25 +369,20 @@ new======
     </div>
   </div>
   <br><br>
-   <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-thumbs-up logo-small"></span>
-      <h4>TRUSTABLE</h4>
-      <p>WE Give Trustable Products..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-time logo-small"></span>
-      <h4>ON TIME DELIVERY</h4>
-      <p>On Time Delivery Of Products..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-hourglass logo-small"></span>
-      <h4>SEQURABLE</h4>
-      <p>WE Give S equrable Service..</p>
+  
+</div>
+<br><br><!-- //this....new -->
+<div class="number_counter_bg container-fluid">
+	<div class="container"> <center><h2>Values</h2></center>
+    	<div class="row" id="counter">
+        	<div class="col-sm-4 counter-Txt"><span><i class="glyphicon glyphicon-heart"></i></span>Customers <span class="counter-value" data-count="13420">0</span></div>
+            <div class="col-sm-4 counter-Txt"><span><i class="glyphicon glyphicon-shopping-cart"></i></span> Products <span class="counter-value" data-count="853">0</span></div>
+            <div class="col-sm-4 counter-Txt margin-bot-35"><span><i class="glyphicon glyphicon-user"></i></span>Teams <span class="counter-value" data-count="1734">0</span></div>
+        </div>
     </div>
 </div>
-</div>
-<br><br>
+
+
 <br>
 <center><b><h2><font color="#8502f0">What our customers say</font></h2></b></center>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
@@ -375,7 +402,7 @@ new======
         <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
       </div>
       <div class="item">
-        <h4>"good services and brands.."<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+        <h4>"good services and branded products.."<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
       </div>
     </div>
 
@@ -441,8 +468,8 @@ new======
       
       
       
-
-   <%@ include file ="footer.jsp"%> 
+ 
+  <%@ include file ="footer.jsp"%>
 </body>
 </html>
    
