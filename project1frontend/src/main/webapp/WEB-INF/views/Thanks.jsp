@@ -22,13 +22,13 @@ color:#9400D3;
 </head>
 <body>
 <%-- <form action="<c:url value='/cart/Thanks'/>"> --%>
-<div class="col-md-1">
+<!-- <div class="col-md-1">
 <marquee direction="down">************</marquee>
 </div>
 <div class="col-md-8">
 <center>
 <h1 ><font face="oleo script swash caps" color="#9400D3"><b>** Your Order  Has Placed **</b></font></h1>
-     <!-- <marquee> <span class="glyphicon glyphicon-gift"></span></marquee> --><span class="glyphicon glyphicon-gift"></span>
+     <marquee> <span class="glyphicon glyphicon-gift"></span></marquee><span class="glyphicon glyphicon-gift"></span>
 
 <h1><strong><font face="oleo script swash caps" color="#9400D3">Thank you for your order!!!</font></strong></h1>
 <h2><font  color="#9400D3"><b>Welcome Visit Again!!!</b></font></h2>
@@ -36,9 +36,10 @@ color:#9400D3;
 <br>
 
 <span class="glyphicon glyphicon-envelope"></span>
-<br><br>
+
 <b><font  color="#9400D3"><h3> <span class="glyphicon glyphicon-star"></span> Your Order Will Be Delivered Soon..!!!**</h3></font></b>
 <img class="img" src="resources/images/shiping icon.png" alt="img" height="25px" width="30px">
+<img class="img" src="resources/images/shiping icon.png" alt="forth slide" height="30px" width="35px">
      </center> </div>
      
     <div class="col-md-1">
@@ -48,6 +49,41 @@ color:#9400D3;
 *
 ********</marquee>
 </div>
+ -->
+ <section class="section3">
+<!-- <div class="container"> -->
+	<div class="row">
+		<div class="col-md-2">
+			<marquee direction="down">************</marquee>
+			<img class="img" src="resources/images/shiping icon.png" alt="forth slide" height="30px" width="35px">
+		</div>
+		<!-- centersssss... -->
+		<div class="col-md-8">	<!-- //center tagss -->
+			<center>
+<h1 ><font face="oleo script swash caps" color="#9400D3"><b>** Your Order  Has Placed **</b></font></h1>
+     <!-- <marquee> <span class="glyphicon glyphicon-gift"></span></marquee> --><span class="glyphicon glyphicon-gift"></span>
+
+<h1><strong><font face="oleo script swash caps" color="#9400D3">Thank you for your order!!!</font></strong></h1>
+<h2><font  color="#9400D3"><b>Welcome Visit Again!!!</b></font></h2>
+<br><img  src="resources/images/imagesok.png" alt="forth slide" height="10px" width="10px">
+<br>
+
+<span class="glyphicon glyphicon-envelope"></span>
+
+<b><font  color="#9400D3"><h3> <span class="glyphicon glyphicon-star"></span> Your Order Will Be Delivered Soon..!!!**</h3></font></b>
+<img class="img" src="resources/images/shiping icon.png" alt="img" height="25px" width="30px">
+<img class="img" src="resources/images/shiping icon.png" alt="forth slide" height="30px" width="35px">
+     </center> 	
+		</div>
+		<div class="col-md-2">	
+			<marquee direction="up">************</marquee>	
+		</div>
+		
+	<!-- </div> -->
+</div>
+</div>
+</section>
+
  
 </body>
 </html>

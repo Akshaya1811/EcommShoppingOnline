@@ -20,26 +20,29 @@
 			</div>
 			<div class="col-md-5">
 			<br>
-			<b>Product Name:</b>&nbsp ${productObj.productname }<br>
-			<b>Product Desc:</b>&nbsp ${productObj.productdesc }<br>
-			<b>Price:</b>&nbsp${productObj.price }<br>
-			<b>Quantity:</b>&nbsp${productObj.quantity }<br>
-			<b>Category:</b>&nbsp${productObj.category.categoryname}<br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Product Name:</font></b><font face="oleo script swash caps" color="#00aeff" size="5px">&nbsp ${productObj.productname }</font><br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Product Desc:</font></b><font face="oleo script swash caps" color="#00aeff" size="5px">&nbsp ${productObj.productdesc }</font><br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Price: </font></b><font face="oleo script swash caps" color="#00aeff" size="5px">Rs.</b>&nbsp${productObj.price }</font><br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Quantity:</font></b><font face="oleo script swash caps" color="#00aeff" size="5px">&nbsp${productObj.quantity }</font><br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Category:</font></b><font face="oleo script swash caps" color="#00aeff" size="5px">&nbsp${productObj.category.categoryname}</font><br>
 			<c:if test="${productObj.quantity==0 }">
 			<button class="btn btn-primary btn-lg" disabled>Out Of Stock</button>
 			</c:if>
 			<c:if test="${productObj.quantity>0 }">
 			<security:authorize access="hasRole('ROLE_USER')">
-			Enter Quantity:<input type="number" min="1" max="${productObj.quantity }" name="requestedQuantity">
-			<button class="btn btn-primary btn-lg" type="submit"><span class="glyphicon glyphicon-shopping-cart" ></span>Add To Cart</button>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Enter Quantity:<input type="number" min="1" max="${productObj.quantity }" name="requestedQuantity"></font></b>
+			<br><br>
+			<b><button class="btn btn-primary btn" type="submit"><b><span class="glyphicon glyphicon-shopping-cart" ></span> Add To Cart</b></button></b>
 			</security:authorize>
 			</c:if>
+			<!-- <div class="relive"> -->
+			<b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="<c:url value='/all/getallproducts'></c:url>" class="btn btn-success btn"><b>Other products <span class="glyphicon glyphicon-eye-open" ></span></b></a></b>
+			</div>
+		
 			</div>
 			
 			</form>
-			<div class="relive">
-			<center><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="<c:url value='/all/getallproducts'></c:url>">Other products</a></b></center>
-			</div>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 			</div>
 			<%-- <center><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="<c:url value='/all/getallproducts'></c:url>">Other products</a></b></center> --%>
 		</div>
