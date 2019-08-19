@@ -34,25 +34,25 @@
 </c:forEach>
 </tbody>
 </table>
-<b>Total Price : ${grandTotal }</b>
+<b>Total Price <span class="glyphicon glyphicon-usd"></span> : Rs. ${grandTotal }</b>
 <c:if test="${empty(cartItems) }">
 <h3>Your Cart is Empty</h3>
 </c:if>
 
 <c:if test="${ !empty(cartItems) }">
 <a href="<c:url value='/cart/shippingaddressform'></c:url>" class="btn btn-success pull-right"> <!--cheaked out box is enlargeby this=  &nbsp;&nbsp;-->
-<span class="glyphicon glyphicon-shopping-cart"></span> CheckOut  </a><!--/cart/shippingaddressform  -->
+<b><span class="glyphicon glyphicon-shopping-cart"></span> CheckOut  </b></a><!--/cart/shippingaddressform  -->
 </c:if>
 
 <c:if test="${ !empty(cartItems) }">
 <a href="<c:url value='/cart/clearcart'></c:url>" class="btn btn-danger pull-right"  >
-<span class="glyphicon glypicon-remove"></span>Clear Cart </a>
+<b><span class="glyphicon glypicon-remove"></span>Clear Cart </b></a>
 </c:if>
 
 </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <div class="continue" align="center">
 <a href="<c:url value='/all/getallproducts'></c:url>" class="btn btn-success "  >
-<span class="glyphicon glyphicon-shopping-cart"></span>&nbspContinue Shopping </a>
+<b><span class="glyphicon glyphicon-shopping-cart"></span>&nbspContinue Shopping </b></a>
 </div>
 </body>
 

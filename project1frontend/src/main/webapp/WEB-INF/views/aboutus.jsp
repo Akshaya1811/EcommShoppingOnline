@@ -200,9 +200,10 @@ $(window).scroll(function() {
                 <div class="col-md-8" id="colr" ><!-- col-sm-6 col-xs-12 -->
                     <div class="aboutus" ><!--  font-color="#8502f0"-->
                         <h2 class="aboutus-title"><font color="#8502f0"><b>About Us</b></font></h2>
-                        <p class="aboutus-text" ><h2><font color="#8502f0"><font face="oleo script swash caps">Fashion Castle</font> the theame of our innovation is to provide you the comfort conveneience in the shopping in online itself</font></h2> </p>
+                        <p class="aboutus-text" ><h2><font color="#8502f0"><font face="oleo script swash caps">		Fashion Castle</font> the theame of our innovation is to provide you the comfort convenience in the shopping in online itself.<br> We Acknowledge that people often Already have ideas and Dreams for this home and Some times just need help making them real & <br> 	Our company Aims you to give the real feel of home as a Castle.</font></h2> </p>
                         <p class="aboutus-text"><ul type="disk"><li><h3><font color="#8502f0">Enjoy your shopping with our service</font></h3></li></ul> </p>
-                        <a class="aboutus-more" href="#"><span class="glyphicon glyphicon-globe"></span> Globally Recognied</a>
+                         <p class="aboutus-text"><ul type="disk"><li><h3><font color="#8502f0">We work with heart for your comfort</font></h3></li></ul> </p>
+                        <a class="aboutus-more" href="#"><span class="glyphicon glyphicon-globe"></span> Globally Recognized</a>
                     </div>
                 </div>
                  <!-- <img src="resources/images/aboutimg.jpg" width="100%" height="22%"> -->
@@ -220,10 +221,7 @@ $(window).scroll(function() {
                                     
                                 </div> 
                                 
-                                 <!-- <img class="img"  src="/resources/images/globe.jpg"  alt="img" height="40%" width="50%">
-                                <div class="feature-content">
-                                    <h4>Work with heart</h4>
-                                    </div> -->
+                                 
                             </div>
                         </div>
                         <div class="feature-box">
@@ -231,9 +229,7 @@ $(window).scroll(function() {
                                 <div class="iconset">
                                     <span class="glyphicon glyphicon-cog icon"></span>
                                 </div>
-                                <!-- <div class="feature-content">
-                                    <h4>Reliable services</h4>
-                                                           </div> -->
+                                
                             </div>
                         </div>
                         <div class="feature-box">
@@ -241,9 +237,7 @@ $(window).scroll(function() {
                                 <div class="iconset">
                                     <span class="glyphicon glyphicon-cog icon"></span>
                                 </div>
-                                <!-- <div class="feature-content">
-                                    <h4>Great support</h4>
-                                        </div> -->
+                                
                             </div>
                         </div>
                     </div>
@@ -259,8 +253,7 @@ $(window).scroll(function() {
     <div class="aboutus">
                         <!-- <h2 class="aboutus-title"><font color="#8502f0"><b>About Us</b></font></h2> -->
                         <h2 class="aboutus-title"><font color="#8502f0"><font face="oleo script swash caps"><b>&nbsp&nbsp&nbsp&nbsp	 Our Products:</b></font></font></h2></div></div>
-                        <!-- <p class="aboutus-text">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
-                        <p class="aboutus-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p> -->
+                        
                        <div class="row2"><!--// Displaying the productsList//  -->
     					<div class="aboutus">
                      <table><tr><td width="100%">
@@ -277,57 +270,30 @@ $(window).scroll(function() {
                         
                         
                         </table></div></div> 
-                        <!-- <img class="img"  src="/resources/images/globe.jpg"  alt="img" height="150px" width="150px"> -->
-                        <p>servicessss>
-                        <ul>
-                        <li>new</li>
-                        <li>oldddd</li>
-                        <li>imhf</li>
-                        <li>hgujfgujh</li>
-                        <img  src="resources/images/globe.jpg"  height="150px" width="150px" align="right"></ul></p>
-                        <a class="aboutus-more" href="#">read more</a>
-                        <i class="fas fa-users"></i>
+                       
+                        <!-- <img  src="resources/images/globe.jpg"  height="150px" width="150px" align="right"></ul></p> -->
+                        <a class="aboutus-more" href="#">read more
+                        <i class="fas fa-users"></i></a>
                         <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
                     </div>
                     
     </div>
-    
+    <img src="resources/images/values2cmpy.JPG" width="100%" height="15%">
  
- <div class="bg">
+<!--  <div class="bg">
            <img class="img"  src="/resources/images/bg login.jpg"  alt="img" height="40%" width="50%">
- </div>
+ </div> -->
  
  <!-- <marquee direction="right"><img src="resources/images/clip1.png"  width="150px" height="150px">with our good services</marquee>
   -->
   
-<img src="resources/images/bg login.jpg"  width="100%" height="22%">with our good services
+<!-- <img src="resources/images/bg login.jpg"  width="100%" height="22%">with our good services -->
   <marquee direction="right" behavior="Alternate"><img src="resources/images/clip1.png"  width="150px" height="150px"><h4><font color="#8502f0"><font face="oleo script swash caps"><b>With Our Good Services</b></font></font></h4></marquee>
-   <img  src="resources/images/globe.jpg"  height="150px" width="150px">
-    
+   <!-- <img  src="resources/images/globe.jpg"  height="150px" width="150px">
+     -->
  </div> 
- <img src="resources/images/aboutimg.jpg" width="100%" height="22%">
+<!--  <img src="resources/images/aboutimg.jpg" width="100%" height="22%"> -->
  
- 
-<!-- <body> -->
-<div class="background-image">
-
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam erat in ante malesuada, facilisis semper nulla semper. Phasellus sapien neque, faucibus in malesuada quis, lacinia et libero. Sed sed turpis tellus. Etiam ac aliquam tortor, eleifend rhoncus metus. Ut turpis massa, sollicitudin sit amet molestie a, posuere sit amet nisl. Mauris tincidunt cursus posuere. Nam commodo libero quis lacus sodales, nec feugiat ante posuere. Donec pulvinar auctor commodo. Donec egestas diam ut mi adipiscing, quis lacinia mauris condimentum. Quisque quis odio venenatis, venenatis nisi a, vehicula ipsum. Etiam at nisl eu felis vulputate porta.</p>
-  <p>Fusce ut placerat eros. Aliquam consequat in augue sed convallis. Donec orci urna, tincidunt vel dui at, elementum semper dolor. Donec tincidunt risus sed magna dictum, quis luctus metus volutpat. Donec accumsan et nunc vulputate accumsan. Vestibulum tempor, erat in mattis fringilla, elit urna ornare nunc, vel pretium elit sem quis orci. Vivamus condimentum dictum tempor. Nam at est ante. Sed lobortis et lorem in sagittis. In suscipit in est et vehicula.</p>
-</div>
- =====
-new======
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      </div>
-  </div>
-</div>===
-
 
 <div class="container-fluid text-center" background-color:" #8502f0">
   <h2>SERVICES</h2>
@@ -347,7 +313,7 @@ new======
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-lock logo-small"></span>
       <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p>Sustainable And Sequrable...</p>
     </div>
     </div>
     <br><br>
@@ -355,17 +321,17 @@ new======
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-grain logo-small"></span>
       <h4>SEQURABLE SERVICE</h4>
-      <p>WE Give S equrable Service..</p>
+      <p>WE Give Sequrable Service..</p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-certificate logo-small"></span>
       <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p>WE Certified to Be the Quality Productures Best Destination..</p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-wrench logo-small"></span>
       <h4>HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p>We Work With Heart For Your Comfort..</p>
     </div>
   </div>
   <br><br>
@@ -396,13 +362,17 @@ new======
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+      <h4><span><b>MugenAnav, Vice President,</b></span><br>
+        "This company is the best. I am so happy with the result!"<br><span>On june ,2019,</span></h4>
       </div>
       <div class="item">
-        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+      <h4><span><b>John Doe, Rep Inc</b></span><br>
+        "One word... WOW!!"<br><span>On 2019-july</span></h4>
       </div>
       <div class="item">
-        <h4>"good services and branded products.."<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+      
+        <h4><b><span>Chandler Bing, Actor,</span></b><br>"Good services and branded products.."<br>
+        <span>On 2018-nov</span></h4>
       </div>
     </div>
 
@@ -417,15 +387,13 @@ new======
     </a>
   </div>
 </div>
-    ====  
+     
       <div class="container1">
     <h2 class="text-center">Contact Form</h2>
 	<div class="row justify-content-center">
 		<div class="col-12 col-md-8 col-lg-6 pb-5">
 
 
-                    <!--Form with header-->
-                        <!--<form action="mail.php" method="post"> -->  
                     <form> 
                         <div class="card border-primary rounded-0">
                             <div class="card-header p-0">
@@ -466,7 +434,11 @@ new======
 	
 </div>
       
-      
+   
+    
+    
+   
+    
       
  
   <%@ include file ="footer.jsp"%>
