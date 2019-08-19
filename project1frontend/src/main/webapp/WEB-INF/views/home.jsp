@@ -96,6 +96,30 @@ i:hover + div:ss {
                 width:33%; 
                 height:280px; 
             } 
+            /* fr btn  */
+            .read-btn {
+           /*  align:right; */
+    border: 1px solid #8502f0;/* button..#8502f0,,#fdb801 */
+    border-radius: 25px;
+    color: #8502f0;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+.read-btn:hover {
+    background: #8502f0;
+    color:#ffffff ;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+ 
             /* h1{ 
                 color:green; 
                 text-align:center; 
@@ -110,58 +134,6 @@ i:hover + div:ss {
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
-<body> -->
-
-<!-- <div class="container">
-  <h2>Carousel Example</h2>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    Indicators
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    Wrapper for slides
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="resources/images/furniturer for style 1.jpg" alt="Los Angeles"  height="25%" style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src="resources/images/sonline-shopping..img..projCPY1.jpg" alt="Chicago" height="25%" style="width:100%;">
-      </div>
-    
-      <div class="item">
-        <img src="resources/images/shopping-4000414__480.jpg" alt="New york"  height="25%" style="width:100%;">
-      </div>
-    </div>
-
-    Left and right controls
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
-
-</body>
-</html>
- -->
 <div class="container"  ><!-- height=25% width="75% -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
            
@@ -261,45 +233,14 @@ i:hover + div:ss {
    <p><h3><b><font color="#FF1493">&nbsp	Art with an Attitude!!</font></b></h3></p>
    <p><h3><b><font color="#00aeff">Lets your Dream Home being with Inspriration here We having Crafted Beauty for Your Home the Style that  speaks and Style that hits your Home..Enjoy Your Shopping!!..   
    <marquee behavior="alternate">*Happy Shopping!!!*</marquee></font></b></h3><p>
-   <a class="ghost-color-btn" href="aboutus">Read More<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+   <font align="right">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       <a class="read-btn" href="aboutus">Read More<span class="fa fa-chevron-right" aria-hidden="true"></span></a></font>
 	
    </div>
    </div>
    </div>
    </section>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <br>
-  <table>
-  <tr width="100%">
-  <td width="100%"><p><img  src="resources/images/logoorigiiii.PNG"  height="300px" width="300px" align="left"><p align="center"><h2><font-color="darkorchid">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	Our Innovative Will be Your Comfort</font></h2></p>
-   <p><h3><font color="#9400D3">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp		Art with an Attitude!!</font></h3></p>
-  <p><h3><font-color="green">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp		Art with an Attitude!!</font></h3></p></td>
-  
-  <td width="10%" >
-  <!-- <ul><li><h2><font-color="darkorchid">Our Innovative Will be Your Comfort</font><h2></li>
-  <li> <h3><font-color="green">Art with an Attitude!!</font></h3></li></ul>
-                        <ul>
-                        <li>new</li>
-                        <li>oldddd</li>
-                        <li>imhf</li>
-                        <li>hgujfgujh</li></ul> --></td></tr>
-                        
-  </table>
- <!--  </div> -->
+   <!--  </div> -->
  <br>
 
 <center><h2><b><u><font face="oleo script swash caps" color="#FF1493"><b>Style Thats Hits Home!!	Our Products</b></font></u></b></h2></center></p>
@@ -309,36 +250,15 @@ i:hover + div:ss {
               
             <div id = "leftbox"> 
             
-                <!-- <!-- <h2>Learn:</h2> 
-                It is a good platform to learn programming. 
-                It is an educational website. Prepare for 
-                the Recruitment drive  of product based  
-                companies like Microsoft, Amazon, Adobe  
-                etc with a free online placement preparation  
-                course. -->
                 
                 <img class="img" src="resources/images/contemporary-dining-room-sets.jpg" alt="forth slide" height="300px" width="100%" ><!--  -->
         
             </div> 
              
-              
-           <!--  <div id = "middlebox"> 
-                <h2>GeeksforGeeks:</h2> 
-                The course focuses on various MCQ's & Coding  
-                question likely to be asked in the interviews 
-                & make your upcoming placement season efficient 
-                and successful. 
-                <img class="img" src="resources/images/dressing table with sliding mirror.jpg" alt="forth slide"height="25%" width="25%" >
-                
-            </div>  -->
+          
               
             <div id = "rightbox"> 
-                <!-- <h2>Contribute:</h2> 
-                Any geeks can help other geeks by writing 
-                articles on the GeeksforGeeks, publishing 
-                articles follow few steps that are Articles 
-                that need little modification/improvement 
-                from reviewers are published first.  -->
+                
                  <img class="img" src="resources/images/bed6 double sigma.jpg" alt="forth slide"height="300px" width="100%" >
                
             </div> 
@@ -406,7 +326,7 @@ i:hover + div:ss {
 <a href="#"><img class="img"  alt="Fnsy" src="resources/images/discount.jpg" height=400px width="100%"></a>
 <br>
   <img class="img" src="resources/images/Homebase_Thumb_v01.gif" alt="forth slide"height="25%" width="25%" >
-  <img class="img" src="resources/images/girl_flat_desk_kit8.gif" alt="forth slide"height="25%" width="25%" >
+  
   <img class="img" src="resources/images/work_work_work.gif" alt="forth slide"height="25%" width="25%" >
   <img class="img" src="resources/images/logogif.gif" alt="forth slide"height="25%" width="25%" >
   <img class="img" src="resources/images/Dogvacay_Plane.gif" alt="forth slide"height="25%" width="25%" >
@@ -416,10 +336,11 @@ i:hover + div:ss {
 <img class="img" src="resources/images/bed-queen-siz-2.jpg" alt="forth slide" height="25%" width="30%"><font color="auqa"> fancy cot for ur comfortb zone..</font><!-- </marquee>--> -->
 <h2>free shiping!! </h2>
 <img class="img" src="resources/images/shiping icon.png" alt="forth slide" height="30px" width="35px">
-<i class="fas fa-users"></i>users
+<span class="glyphicon glyphicon-users"></span>users
+<img class="img" src="resources/images/shiping icon.png" alt="forth slide" height="30px" width="35px">
 </center>
 <div>
-<img class="img"  src="/resources/images/register here.jpg"  alt="img" height="25%" width="30%">
+<img class="img"  src="/resources/images/register here.jpg"  alt="img" height="30px" width="40px">
 </div>
 <!-- <i>Hover over me!</i>
 <div  class="ss" id="click">I will show on hover</div>
@@ -427,7 +348,7 @@ i:hover + div:ss {
 <!-- <footer >
 <font face="Arialblack" color="yellow" ><h3>Thanks welcome again!!!!</h3></font>
 </footer> -->
-<!-- this is ... //hav 2inst/////<marquee direction="right" behavior="alternate"> --><img src="resources/images/clip1.png"  width="150px" height="150px"><!-- </marquee> -->
+<marquee direction="right" behavior="alternate"><img src="resources/images/clip1.png"  width="150px" height="150px"></marquee> 
 
 </div>
  <%@ include file ="footer.jsp"%> 
