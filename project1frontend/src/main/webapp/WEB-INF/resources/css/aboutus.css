@@ -38,9 +38,9 @@ a:hover, a:active {
     outline: 0;
 }
 .aboutus-more {
-    border: 1px solid #fdb801;
+    border: 1px solid #8502f0;/* button..#8502f0,,#fdb801 */
     border-radius: 25px;
-    color: #fdb801;
+    color: #8502f0;
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
@@ -48,6 +48,7 @@ a:hover, a:active {
     padding: 7px 20px;
     text-transform: uppercase;
 }
+
 .feature .feature-box .iconset {
     background: #fff none repeat scroll 0 0;
     float: left;
@@ -115,7 +116,12 @@ display:block; font-size:36px
     color: #fff;
     
 }
-
+.background1{
+	 padding: 100px 25px;
+	 background-repeat: no-repeat;
+background-size:cover;
+	 background: url(https://www.images.app.goo.gl/tVfUBrMoaPutmw9c8);
+}
 
 
 

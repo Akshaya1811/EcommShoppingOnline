@@ -65,7 +65,7 @@
 <td><form:input path="zipcode" id="zipcode"/></td>
 </table>
 </div>
-<center><button type="submit" >Next</button></center>
+<center><button type="submit"  class="btn btn-info btn-lg" >Next</button></center>
 </form:form>
 </div>
 </body>
