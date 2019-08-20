@@ -244,7 +244,7 @@ i:hover + div:ss {
    <!--  </div> -->
  <br>
 
-<center><h2><b><u><font face="oleo script swash caps" color="#FF1493"><b>Style Thats Hits Home!!	Our Products</b></font></u></b></h2></center></p>
+<!-- <center><h2><b><u><font face="oleo script swash caps" color="#FF1493"><b>Style Thats Hits Home!!	Our Products</b></font></u></b></h2></center></p> -->
 <center><h2><b><u><font face="oleo script swash caps" color="#9400D3"><b>Style Thats Hits Home!!	Our Products</b></font></u></b></h2></center></p>
  <div  class="image" id = "boxes"> 
             <!-- <h1>GeeksforGeeks</h1>  -->
@@ -330,10 +330,10 @@ i:hover + div:ss {
 <br>
   <img class="img" src="resources/images/Homebase_Thumb_v01.gif" alt="forth slide"height="25%" width="25%" >
   
-  <img class="img" src="resources/images/work_work_work.gif" alt="forth slide"height="25%" width="25%" >
+  <!-- <img class="img" src="resources/images/work_work_work.gif" alt="forth slide"height="25%" width="25%" >
   <img class="img" src="resources/images/logogif.gif" alt="forth slide"height="25%" width="25%" >
   <img class="img" src="resources/images/Dogvacay_Plane.gif" alt="forth slide"height="25%" width="25%" >
-  
+   -->
 <!-- <center> -->
 <!-- <marquee><h2>our new arrivals!!!</h2>this,.... -->
 <img class="img" src="resources/images/bed-queen-siz-2.jpg" alt="forth slide" height="25%" width="30%"><font color="auqa"> fancy cot for ur comfortb zone..</font><!-- </marquee>--> -->
