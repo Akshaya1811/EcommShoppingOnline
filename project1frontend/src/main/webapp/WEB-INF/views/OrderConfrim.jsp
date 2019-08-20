@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>ConfrimOrder</h2>
+<!-- <h2>ConfrimOrder</h2> -->
 <%-- <a href="<c:url value='/payment/'></c:url>"class="btn btn-success ">payment</a> --%>
  <%-- <a href="<c:url value='/all/payment'></c:url>" class="btn btn-success pull-right" >Payment&nbsp<span class="glyphicon glyphicon-play"></span></a> --%>
 <div class="container-wrapper">
@@ -24,6 +24,8 @@
 
                        <div >
                             <h1 align="center">OrderConfrimation</h1>
+                            <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspYour Payment is Sucessfull
+                            <br>and your orders will delivered to this Address</h3>
                        </div>
                         ORDER ID: ${customerorder.orderId }
                   
@@ -59,7 +61,10 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                      <%--  <c:forEach var="v1" begin="1" end="5">
+                                   <c:out value="${v1 }"></c:out>
+                              </c:forEach> --%>
+                       <%--  <div class="row">
                             <table class="table table-hover" border="1">
                                 <thead>
                                     <tr>
@@ -74,7 +79,7 @@
                               
                                 <c:forEach var="cartItem" items="${cartItems}">
                                     <tr>
-                            <c:url value="/resources/images/${cartItem.product.id }.png" var="imgUrl"></c:url>
+                            <c:url value="/resources/images/${cartItem.product.id }.jpg" var="imgUrl"></c:url>
                                         <td><img src="${imgUrl }" height="50px" width="50px">  </td>
                                         <td class="col-md-9"><em>${cartItem.product.productname}</em></td>
                                         <td class="col-md-1" style="text-align: center">${cartItem.quantity}</td>
@@ -97,11 +102,12 @@
                                 </tr>
 
                                 </tbody>
-                            </table>
-                           
-                        </div>
-                        <a href="<c:url value='/all/payment'></c:url>" class="btn btn-success pull-right" >Payment&nbsp<span class="glyphicon glyphicon-play"></span></a>
-
+                            </table> --%>
+                        <div class="row">   
+                        
+                         <center><a href="<c:url value='/all/Thanks'></c:url>" class="btn btn-primary btn " >Done&nbsp<span class="glyphicon glyphicon-thumbs-up"></span></a></center>
+                      </div> <%--  <a href="<c:url value='/all/payment'></c:url>" class="btn btn-success pull-right" >Payment&nbsp<span class="glyphicon glyphicon-play"></span></a>
+ --%>
 <%-- <a href="<c:url value='/all/payment'></c:url>"><b>payment</b></a> --%>
                       
                     </div>

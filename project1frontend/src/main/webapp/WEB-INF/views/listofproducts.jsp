@@ -32,12 +32,12 @@ color:#8502f0;
 			<thead>
 				<tr>
 			
-					<th><b><font color="#8502f0">Image <span class="glyphicon glyphicon-picture"></span></font></b></th>
-					<th><b><font color="#8502f0">Product Name  <span class="glyphicon glyphicon-bed"></span></font></b></th>
-					<th><b><font color="#8502f0">Price <span class="glyphicon glyphicon-barcode"></span></font></b></th>
-					<th><b><font color="#8502f0">Suppliers <span class="glyphicon glyphicon-inbox"></span></font></b></th>
-					<th><b><font color="#8502f0">Category  <span class="glyphicon glyphicon-th-list"></span></font></b></th>
-					<th><b><font color="#8502f0"><span class="glyphicon glyphicon-tags"></span> Action <span class="glyphicon glyphicon-eye-open"></span></font></b></th>
+					<th><b><font face="Courgette" color="#8502f0">Image <span class="glyphicon glyphicon-picture"></span></font></b></th>
+					<th><b><font face="Courgette" color="#8502f0">Product Name  <span class="glyphicon glyphicon-bed"></span></font></b></th>
+					<th><b><font face="Courgette" color="#8502f0">Price <span class="glyphicon glyphicon-barcode"></span></font></b></th>
+					<th><b><font face="Courgette" color="#8502f0">Suppliers <span class="glyphicon glyphicon-inbox"></span></font></b></th>
+					<th><b><font face="Courgette" color="#8502f0">Category  <span class="glyphicon glyphicon-th-list"></span></font></b></th>
+					<th><b><font face="Courgette" color="#8502f0"><span class="glyphicon glyphicon-tags"></span> Action <span class="glyphicon glyphicon-eye-open"></span></font></b></th>
 				</tr>
 			</thead>
 			<tbody>
