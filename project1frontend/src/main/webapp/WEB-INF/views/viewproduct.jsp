@@ -8,8 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div class="container">
-		<!-- Product Details<br> -->
+	<div >
+		<!-- class="container",Product Details<br> -->
 		<div class="panel-info">
 			<div class="panel panel-heading">Product Details</div>
 			<div class="panel panel-body">
@@ -20,11 +20,11 @@
 			</div>
 			<div class="col-md-5">
 			<br>
-			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Product Name:</font></b><font face="oleo script swash caps" color="#00aeff" size="5px">&nbsp ${productObj.productname }</font><br>
-			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Product Desc:</font></b><font face="oleo script swash caps" color="#00aeff" size="5px">&nbsp ${productObj.productdesc }</font><br>
-			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Price: </font></b><font face="oleo script swash caps" color="#00aeff" size="5px">Rs.</b>&nbsp${productObj.price }</font><br>
-			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Quantity:</font></b><font face="oleo script swash caps" color="#00aeff" size="5px">&nbsp${productObj.quantity }</font><br>
-			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Category:</font></b><font face="oleo script swash caps" color="#00aeff" size="5px">&nbsp${productObj.category.categoryname}</font><br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Product Name:</b><font face="Courgette" color="#8502f0" size="5px"><b>&nbsp ${productObj.productname }</b></font><br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Product Desc:</font></b><font face="Courgette" color="#8502f0" size="5px"><b>&nbsp ${productObj.productdesc }</b></font><br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Price: </font></b><font face="Courgette" color="#8502f0" size="5px"><b>Rs.&nbsp${productObj.price }</b></font><br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Quantity:</font></b><font face="Courgette" color="#8502f0" size="5px"><b>&nbsp${productObj.quantity }</b></font><br>
+			<b><font face="oleo script swash caps" color="#8502f0" size="5px">Category:</font></b><font face="Courgette" color="#8502f0" size="5px"><b>&nbsp${productObj.category.categoryname}</b></font><br>
 			<c:if test="${productObj.quantity==0 }">
 			<button class="btn btn-primary btn-lg" disabled>Out Of Stock</button>
 			</c:if>

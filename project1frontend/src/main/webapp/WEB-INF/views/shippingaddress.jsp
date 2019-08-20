@@ -33,7 +33,7 @@
 <form:form modelAttribute="shippingaddress" action="${url }" id="form">
 
 <p align="center"><b>Shipping Address</b></p>	
-<form:hidden path="id"/>
+<%-- <form:hidden path="id"/> ive changed--%>
 <div class="col-md-6">
 <table> <%-- <tr><td>
 <form:label path="username">Enter UserName</form:label></td>
@@ -65,7 +65,7 @@
 <td><form:input path="zipcode" id="zipcode"/></td>
 </table>
 </div>
-<center><button type="submit"  class="btn btn-info btn-lg" >Next</button></center>
+<center><button type="submit"  class="btn btn-info btn-lg" ><b>Next</b> <span class="glyphicon glyphicon-road"></span></button></center>
 </form:form>
 </div>
 </body>
