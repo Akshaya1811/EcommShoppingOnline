@@ -11,7 +11,7 @@
 <div class="container">
 <table class="table table-striped">
 <thead id="thead">
-<tr><th>ProductName</th><th>Quantity</th><th>Total Price</th><th>Remove</th><th>Update</th>
+<tr><th>ProductName</th><th>Quantity</th><th>Total Price</th><th>Remove</th>
 </tr>
 </thead>
 <c:set var="grandTotal" value="0"></c:set>
@@ -26,9 +26,9 @@
 <td><a href="<c:url value='/cart/removecartitem/${cartItem.cartItemId }'></c:url>" class="label label-danger pull-left" >
 <span class="glyphicon glyphicon-remove" ></span>Remove
 </a></td>
-<td><a href="<c:url value="/cart/updatecart/{cartItemId}"></c:url>" class="label label-success pull-left" >
+<%-- <td><a href="<c:url value="/cart/updatecart/{cartItemId}"></c:url>" class="label label-success pull-left" >
 <span class="glyphicon glyphicon-ok" ></span>Update
-</a></td><!-- changed..update -->
+</a></td><!-- changed..update --> --%>
 
 </tr>
 </c:forEach>

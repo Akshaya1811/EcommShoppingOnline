@@ -279,6 +279,7 @@ $(window).scroll(function() {
                     
     </div>
     <img src="resources/images/values2cmpy.JPG" width="100%" height="15%">
+
  
 <!--  <div class="bg">
            <img class="img"  src="/resources/images/bg login.jpg"  alt="img" height="40%" width="50%">
@@ -296,8 +297,8 @@ $(window).scroll(function() {
  
 
 <div class="container-fluid text-center" background-color:" #8502f0">
-  <h2>SERVICES</h2>
-  <h4>We Offers</h4>
+  <h2><font color="#8502f0" ><u><b>SERVICES</b></u></h2>
+  <h4><b>We Offers</b></h4></font>
   <br>
   <div class="row">
     <div class="col-sm-4">
@@ -339,7 +340,7 @@ $(window).scroll(function() {
 </div>
 <br><br><!-- //this....new -->
 <div class="number_counter_bg container-fluid">
-	<div class="container"> <center><h2>Values</h2></center>
+	<div class="container"> <center><h2><b>Values</b></h2></center>
     	<div class="row" id="counter">
         	<div class="col-sm-4 counter-Txt"><span><i class="glyphicon glyphicon-heart"></i></span>Customers <span class="counter-value" data-count="13420">0</span></div>
             <div class="col-sm-4 counter-Txt"><span><i class="glyphicon glyphicon-shopping-cart"></i></span> Products <span class="counter-value" data-count="853">0</span></div>
@@ -363,16 +364,16 @@ $(window).scroll(function() {
     <div class="carousel-inner" role="listbox">
       <div class="item active">
       <h4><span><b>MugenAnav, Vice President,</b></span><br>
-        "This company is the best. I am so happy with the result!"<br><span>On june ,2019,</span></h4>
+        <b>"This company is the best. I am so happy with the result!"</b><br><span>On june ,2019.</span></h4>
       </div>
       <div class="item">
       <h4><span><b>John Doe, Rep Inc</b></span><br>
-        "One word... WOW!!"<br><span>On 2019-july</span></h4>
+       <b> "One word... WOW!!"<br><span>On july-2016</b></span></h4>
       </div>
       <div class="item">
       
-        <h4><b><span>Chandler Bing, Actor,</span></b><br>"Good services and branded products.."<br>
-        <span>On 2018-nov</span></h4>
+        <h4><b><span>Chandler Bing, Actor,</span></b><br><b>"Good services and branded products.."</b><br>
+        <span>On nov-2018</span></h4>
       </div>
     </div>
 
