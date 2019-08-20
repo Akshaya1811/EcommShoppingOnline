@@ -26,8 +26,8 @@ $(document).ready(function(){
 
 </head>
 <body>
- <%-- <form action="<c:url value='/cart/Invoice'/>" --%>
-
+  <%-- <form action="<c:url value='/cart/Invoice'/>"  --%>
+<%-- <form action="<c:url value='/cart/Invoice'/>"> --%>
 
 
  <div class="container">
@@ -50,7 +50,7 @@ $(document).ready(function(){
           <div class="control-group">
             <label class="control-label"  for="paytype"><b>Payment Type</b></label>
             <div class="controls">
-              <input type="radio" id="pmode" name="pmode" placeholder="" class="input-xlarge">cash on delivery
+              <input type="radio" id="pmode" name="pmode" placeholder="" class="input-xlarge">debit card
               <input type="radio" id="pmode" name="pmode" placeholder="" class="input-xlarge">credit card
             </div>
           </div>
@@ -123,12 +123,12 @@ $(document).ready(function(){
              <button  onclick="alert(' you are successfully payed /n pls click done')" class="btn btn-default btn-success"><span class="glyphicon glyphicon-credit-card"></span><b>   Pay Now</b></button>
             &nbsp&nbsp&nbsp&nbsp
             <a href="<c:url value='/cart/Invoice'/>" class="btn btn-primary btn"><b><center>Done</center></b></a>
-            <p>Credit-card icon on a styled link button:
-        <a href="#" onclick="alert(' you are successfully payed /n pls click done')" class="btn btn-info btn-lg"><b>
+            <!--<p>Credit-card icon on a styled link button:
+         <a href="#" onclick="alert(' you are successfully payed /n pls click done')" class="btn btn-info btn-lg"><b>
           <span class="glyphicon glyphicon-credit-card"></span> Credit Card</b>
-        </a>
+        </a> -->
       
-              <img src="http://i76.imgup.net/accepted_c22e0.png">
+              &nbsp&nbsp&nbsp&nbsp<img src="http://i76.imgup.net/accepted_c22e0.png">
               </div>
           </div>
      

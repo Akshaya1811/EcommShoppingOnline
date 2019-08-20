@@ -157,7 +157,7 @@ public class CartItemController {
 		model.addAttribute("customerorder", customerOrder);// order=[orderId,purchaseDate,grandTotal,User]
 		model.addAttribute("cartItems", cartItems);
 		session.setAttribute("cartSize", 0);
-		return "OrderConfrim";
+		return "orderDetails";
 	}
 
 	@RequestMapping(value = "/all/payment")
@@ -239,10 +239,10 @@ public class CartItemController {
 	    	
 	    	
 	    	List<CartItem> cartItems=cartItemDao.getCart(email);
-			System.out.println("hiiiiiiiiiii");
+			System.out.println("this is invoice");
 
 	    	for(CartItem cartItem:cartItems){
-	    		System.out.println("helloooooooo");
+	    		System.out.println("invoiceeeeee");
 	    		Product product=cartItem.getProduct();
 	    		if((product.getQuantity()-cartItem.getQuantity())<0){
 	    			cartItemDao.removeCartItem(cartItem.getCartItemId());
@@ -289,7 +289,7 @@ public class CartItemController {
 	    	model.addAttribute("customerorder",customerOrder);//order=[orderId,purchaseDate,grandTotal,User]
 	    	model.addAttribute("cartItems",cartItems);
 	    	session.setAttribute("cartSize", 0);
-		return "orderDetails";
+		return "OrderConfrim";
 	 }
 	
 	

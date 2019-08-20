@@ -66,8 +66,8 @@ $(document).ready(function(){
 <!-- Style to set the size of checkbox -->
     <style> 
         input.sized { 
-            width: 27px; 
-            height: 27px; 
+            width: 25px; 
+            height: 25px; 
         } 
     </style> 
 </head>
@@ -77,14 +77,35 @@ $(document).ready(function(){
 <c:url value="/all/registercustomer" var="url"></c:url>
 <form:form modelAttribute="customer" action="${url }" id="form"  >
 
-<form:hidden path="id"/>
-<form>
+<form:hidden path="id"/> 
+<!-- <form> -->
 <h1>Registration </h1>
 <!-- <hr> -->
 
-<b>Billing Address</b><br>
+<!-- <b>Billing Address</b><br> -->
 
- <div class="col-md-6">
+<div class="col-md-6">
+ <table>
+ <tr><td><form:label path="user.email" >Enter Email</form:label></td>
+<td><form:input path="user.email" placeholder="email" id="user.email" type="email"/></td></tr>
+<tr><td><tr><td><form:label path="user.password" >Enter Password</form:label></td>
+<td><form:input path="user.password" placeholder="pwd" id="user.password" type="password"/></td></tr>
+
+<tr><td>
+<form:label path="firstname">Firstname</form:label></td>
+<td><form:input path="firstname" id="firstname"/></td></tr>
+
+
+<tr><td><form:label path="lastname">Lastname</form:label></td>
+<td><form:input path="lastname" id="lastname"/></td></tr>
+
+
+<tr><td><form:label path="phonenumber">Phonenumber</form:label></td>
+<td><form:input path="phonenumber" id="phonenumber"/></td></tr>
+</table>
+</div>
+
+ <%-- <div class="col-md-6">
  <table>
  <tr><td><form:label path="user.email" >Enter Email</form:label></td>
 <td><form:input path="user.email" placeholder="email" id="user.email" type="email"/></td></tr>
@@ -128,8 +149,8 @@ $(document).ready(function(){
 </tr>
 <!-- </div> -->
 </table>
-</div>
-<div class="col-md-6">
+</div> --%>
+ <div class="col-md-6">
 <b>Shipping address</b>
  
 Check this if shipping address is same as billing address
@@ -156,10 +177,10 @@ Check this if shipping address is same as billing address
 <form:label path="shippingaddress.zipcode">Enter zipcode</form:label></td>
 <td><form:input path="shippingaddress.zipcode" id="shippingaddress.zipcode"/></td></tr>
 </table>
-</div>
-<center><button type="submit" onclick="alert('your registered successfully')" class="btnSubmit" value="Register/"><span class="glyphicon glyphicon-registration-mark"></span>Register Now</button></center>
-</form>
-<img src="resources/images/globe.jpg" alt="first slide" height="50px" width="50px">
+</div> 
+<center><button type="submit" onclick="alert('your registered successfully')" class="btnSubmit" value="Register/"><b><span class="glyphicon glyphicon-registration-mark"></span>Register Now</b></button></center>
+ <!-- </form>  -->
+<!-- <img src="resources/images/globe.jpg" alt="first slide" height="50px" width="50px"> -->
 <!-- <button onclick="alert('Hello\nHow are you?')">Try it</button> -->
 
 </form:form>
