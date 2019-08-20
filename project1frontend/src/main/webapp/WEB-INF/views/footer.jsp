@@ -25,7 +25,7 @@
 <li class="glyphicon glyphicon-map-marker" style="width:30px"></li>20, fashioncastle furniture Shop,Chennai-66 <br>
 <li class="glyphicon glyphicon-phone" style="width:30px"></li> Phone: +91 9952941591<br>
 <li class="glyphicon glyphicon-envelope" style="width:30px"> </li> Email: fashioncastle@gmail.com<br>
-<li>copyrigts© 2019-FashionCastle.&nbsp All Rights Reserved.</li></font></b></div>
+<li>copyrigts<strong>©</strong> 2019-FashionCastle.&nbsp All Rights Reserved.</li></font></b></div>
 
 <!-- <li><span class=""glyphicon glyphicon-envelope"  -->
 <!--    <li> <span class="glyphicon glyphicon-globe fa-5x">globeeee</span></div> -->

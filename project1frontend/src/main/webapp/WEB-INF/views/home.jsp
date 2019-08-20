@@ -134,7 +134,8 @@ i:hover + div:ss {
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container"  ><!-- height=25% width="75% -->
+<div class="container-fluid" style="margin-bottom:50px;">
+<!-- <div class="container"  >height=25% width="75% -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
            
            <!--  Indicators -->
@@ -166,7 +167,7 @@ i:hover + div:ss {
                     </div>
                 </div>
                 <div class="item">
-                    <img class="img" src="resources/images/shopping-4000414__480cpy.jpg" alt="Third slide" height="75%" width="100%">
+                    <img class="img" src="resources/images/carosulpic1.JPG" alt="Third slide" height="75%" width="100%">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>fANCY Trends</h1>
@@ -178,13 +179,13 @@ i:hover + div:ss {
                     <img class="img" src="resources/images/Screenshot (495).png" alt="forth slide" height="75%" width="100%">
                   <div class="cointainer">
                         <div class="carousel-caption">
-                            <h1>MEET OUR BEST SELLERS!!..</h1>
+                           <!--  <h1>MEET OUR BEST SELLERS!!..</h1> -->
                             <p>make it count!!!!</p>
                         </div>
                     </div>
                 </div>
                  <div class="item">
-                    <img class="img" src="resources/images/antonovich-design-hanging fixture2CROPED.jpg" alt="fifth slide" height="100%" width="100%">
+                    <img class="img" src="resources/images/caroselpic2.JPG" alt="fifth slide" height="100%" width="100%">
                   <div class="cointainer">
                         <div class="carousel-caption">
                             <h1>Products you Fall In Love With</h1>
@@ -233,7 +234,7 @@ i:hover + div:ss {
    <p><h3><b><font color="#FF1493">&nbsp	Art with an Attitude!!</font></b></h3></p>
    <p><h3><b><font color="#00aeff">Lets your Dream Home being with Inspriration here We having Crafted Beauty for Your Home the Style that  speaks and Style that hits your Home..Enjoy Your Shopping!!..   
    <marquee behavior="alternate">*Happy Shopping!!!*</marquee></font></b></h3><p>
-   <font align="right">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       <a class="read-btn" href="aboutus">Read More<span class="fa fa-chevron-right" aria-hidden="true"></span></a></font>
+   <font align="right">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       <a class="read-btn" href="aboutus">Read More</a></font>
 	
    </div>
    </div>
@@ -283,14 +284,16 @@ i:hover + div:ss {
   </div>
 		<div class="col-md-6"><br><br>	<center>
 		<h2><b><font face="darkorchid" color="#9400D3">furnitures for your Comfort</font></b></h2>
-    <h2><b><font face="darkorchid" color="#9400D3">*Stay comfort!!!*</font></b></h2></center>
-	
+    <h2><b><font face="darkorchid" color="#9400D3">*Stay comfort!!!*</b><br></center></h2>
+    <br>
+	<marquee   behavior="alternate"><b><h2><font face="darkorchid" color="#9400D3">**Quality Products***</font></b></marquee></h2>
+	<marquee   behavior="alternate"><b><h2><font face="darkorchid" color="#9400D3">**Style that hits your home***</font></b></marquee></h2>
    </div>
    </div>
    </div>
    </section>
 <!--    <br> -->
-   <marquee direction="alternate" behavior="alternate"><img class="img" src="resources/images/shop-img..proj.png" alt="img" height="250px" width="250px" ></td> </marquee></br>
+   <marquee direction="alternate" behavior="alternate"><img class="img" src="resources/images/shop-img..proj.png" alt="img" height="250px" width="250px" ></td> </marquee>
    <!-- </center>  -->
 <section class="section3">
 <!-- <div class="container"> -->
@@ -331,24 +334,28 @@ i:hover + div:ss {
   <img class="img" src="resources/images/logogif.gif" alt="forth slide"height="25%" width="25%" >
   <img class="img" src="resources/images/Dogvacay_Plane.gif" alt="forth slide"height="25%" width="25%" >
   
-<center>
+<!-- <center> -->
 <!-- <marquee><h2>our new arrivals!!!</h2>this,.... -->
 <img class="img" src="resources/images/bed-queen-siz-2.jpg" alt="forth slide" height="25%" width="30%"><font color="auqa"> fancy cot for ur comfortb zone..</font><!-- </marquee>--> -->
-<h2>free shiping!! </h2>
-<img class="img" src="resources/images/shiping icon.png" alt="forth slide" height="30px" width="35px">
-<span class="glyphicon glyphicon-users"></span>users
-<img class="img" src="resources/images/shiping icon.png" alt="forth slide" height="30px" width="35px">
-</center>
 <div>
-<img class="img"  src="/resources/images/register here.jpg"  alt="img" height="30px" width="40px">
+<h2><b><font face="oleo script swash caps" color="#8502f0">&nbsp&nbsp&nbsp&nbsp*free shiping!!** </font></b></h2>
+<div class="col-md-2">
+&nbsp&nbsp<img class="img" src="resources/images/shiping icon.png" alt="forth slide" height="30px" width="35px">
+<span class="glyphicon glyphicon-users"></span><b><font color="#8502f0">*conditions Apply</font></b></div>
+<div class="col-md-8">
+<marquee  direction="right" behavior="alternate"><img class="img" src="resources/images/shiping icon.png" alt="forth slide" height="30px" width="35px"></marquee></div>
 </div>
+<!-- </center> -->
+<!-- <div>
+<img class="img"  src="/resources/images/register here.jpg"  alt="img" height="30px" width="40px">
+</div> -->
 <!-- <i>Hover over me!</i>
 <div  class="ss" id="click">I will show on hover</div>
 <div class="footer"> --><!--  height="30%" -->
 <!-- <footer >
 <font face="Arialblack" color="yellow" ><h3>Thanks welcome again!!!!</h3></font>
 </footer> -->
-<marquee direction="right" behavior="alternate"><img src="resources/images/clip1.png"  width="150px" height="150px"></marquee> 
+<marquee direction="right" behavior="alternate"><img src="resources/images/clip1.png"  width="150px" height="150px"><font color="#FF1493">*Happy Shopping!!!*Stay comfort***</font></marquee> 
 
 </div>
  <%@ include file ="footer.jsp"%> 
